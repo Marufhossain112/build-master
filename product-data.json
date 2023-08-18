@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Acer KA222Q  100Hz AMD FreeSync Full HD Monitor",
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/ka222q-h/ka222q-h-01-500x500.webp",
+      "category": "monitor",
+      "price": "45",
+      "status": "in stock",
+      "rating": "4"
+    },
+    {
+      "id": 2,
+      "name": "Gigabyte GA-H81M-DS2 Micro ATX Motherboard",
+      "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-h81m-ds2/ga-h81m-ds2-1-228x228.jpg",
+      "category": "motherboard",
+      "price": "90",
+      "status": "out of stock",
+      "rating": "5"
+    },
+    {
+      "id": 3,
+      "name": "Gigabyte GA-H81M-DS2 Micro ATX Motherboard",
+      "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-h81m-ds2/ga-h81m-ds2-1-228x228.jpg",
+      "category": "motherboard",
+      "price": "90",
+      "status": "out of stock",
+      "rating": "5"
+    },
+    {
+      "id": 4,
+      "name": "TwinMOS 4GB DDR4 2400MHz Desktop RAM",
+      "image": "https://www.startech.com.bd/image/cache/catalog/RAM/TwinMOS/TwinMOS%204GB%20DDR4%202400-228x228.jpg",
+      "category": "ram",
+      "price": "20",
+      "status": "in stock",
+      "rating": "3"
+    },
+    {
+      "id": 5,
+      "name": "Revenger VP 350 Watt Power Supply",
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-228x228.webp",
+      "category": "Power supply",
+      "price": "10",
+      "status": "in stock",
+      "rating": "2"
+    },
+    {
+      "id": 6,
+      "name": "Toshiba S300 1TB 5700rpm Surveillance Hard Drive",
+      "image": "https://www.startech.com.bd/image/cache/catalog/hdd/toshiba/s300/s300-1tb-01-228x228.jpg",
+      "category": "Storage device",
+      "price": "40",
+      "status": "out of stock",
+      "rating": "4"
+    }
+  ]
+}

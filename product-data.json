@@ -7,7 +7,18 @@
       "category": "monitor",
       "price": "45",
       "status": "in stock",
-      "rating": "4"
+      "individualRating": "4",
+      "avgRating": "4",
+      "keyFeatures": [
+        {
+          "model": "KA222Q H",
+          "resolution": "FHD (1920 x 1080) ",
+          "ports": "VGA, HDMI ",
+          "display": "VA, 100Hz, 1 ms ",
+          "mpn": "UM.WX2SI.H02",
+          "features": "Low Blue Light, ZeroFrame Design, Inbuilt Speakers"
+        }
+      ]
     },
     {
       "id": 2,
@@ -16,7 +27,18 @@
       "category": "motherboard",
       "price": "90",
       "status": "out of stock",
-      "rating": "5"
+      "individualRating": "5",
+      "avgRating": "4",
+      "keyFeatures": [
+        {
+          "model": "GA-H81M-DS2",
+          "cpu": "4th Generation Intel Processors ",
+          "chipset": "Intel H81 Express",
+          "display": "VA, 100Hz, 1 ms ",
+          "mpn": "UM.WX2SI.H02",
+          "features": "Low Blue Light, ZeroFrame Design, Inbuilt Speakers"
+        }
+      ]
     },
     {
       "id": 3,

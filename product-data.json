@@ -9,6 +9,7 @@
       "status": "in stock",
       "individualRating": "4",
       "avgRating": "4",
+      "description": "The Acer KA222Q H is a high-quality 21.5-inch monitor designed for a smooth and immersive visual experience. With its Full HD resolution of 1920 x 1080 pixels, it delivers crisp and detailed images, making it ideal for gaming, multimedia, and everyday computing tasks. The monitor features a VA (Vertical Alignment) display panel, which offers wide viewing angles and excellent color reproduction, ensuring that images appear vibrant and lifelike from various perspectives. The 100Hz refresh rate provides a smoother viewing experience, reducing motion blur and making fast-paced action scenes in movies or games more fluid. Thanks to its 1 ms response time, the Acer KA222Q H excels in reducing ghosting and motion artifacts, allowing for seamless transitions and sharper visuals, particularly in fast-moving scenes. This makes it a fantastic choice for gamers who require quick reactions and smooth gameplay. Connectivity options on the Acer KA222Q H include a VGA and an HDMI port, enabling you to connect various devices such as computers, laptops, gaming consoles, and media players. The VGA port allows for analog connections, while the HDMI port supports digital connections, providing flexibility and compatibility with different devices. Notable features of the Acer KA222Q H include AMD FreeSync technology, which synchronizes the monitor's refresh rate with the graphics card's output, eliminating screen tearing and stuttering, resulting in a seamless and tear-free gaming experience. The monitor also incorporates Low Blue Light technology, which reduces the amount of harmful blue light emitted by the screen, minimizing eye strain and fatigue during extended use. The ZeroFrame design of the Acer KA222Q H ensures a sleek and modern appearance, with ultra-thin bezels that maximize the screen real estate and facilitate multi-monitor setups for an immersive viewing experience. The Acer KA222Q H 21.5 inch monitor offers a Full HD resolution, a VA display with wide viewing angles, a 100Hz refresh rate, and a 1 ms response time. With its AMD FreeSync technology, Low Blue Light feature, and ZeroFrame design, it provides a smooth, comfortable, and visually stunning experience for both gaming and general multimedia usage.",
       "keyFeatures": [
         {
           "model": "KA222Q H",
@@ -29,25 +30,35 @@
       "status": "out of stock",
       "individualRating": "5",
       "avgRating": "4",
+      "description": "Gigabyte GA-H81M-DS2 Micro ATX ultra durable motherboard has the compatibility with 4th gen Intel processors. This board also supports dual channel DDR3 maximum 16GB memory and dual Ultra-Fast SATA interface. Focusing on the graphics, it has integrated Intel HD graphics with 1GB shared graphics memory containing the resolution of 1920x1200 Hz for D-Sub port. This basic motherboard has the facility of GIGABYTE On/Off Chargeâ„¢ for USB devices, LAN with high ESD Protection and USB 3.0 ports with GIGABYTE 3x USB power. This All solid capacitors design board also contain GIGABYTE UEFI DualBIOSâ„¢ Technology and LPT, COM, D-SUB port on rear panel  Purchase high quality basic Gigabyte boards within your range, available at best price at Star Tech. We provide the best service for every customer. Online shopping have made our life very easy to buy our desired item to build your dream PC",
       "keyFeatures": [
         {
           "model": "GA-H81M-DS2",
           "cpu": "4th Generation Intel Processors ",
           "chipset": "Intel H81 Express",
-          "display": "VA, 100Hz, 1 ms ",
-          "mpn": "UM.WX2SI.H02",
-          "features": "Low Blue Light, ZeroFrame Design, Inbuilt Speakers"
+          "mpn": "UM.WX2SI.H02"
         }
       ]
     },
     {
       "id": 3,
-      "name": "Gigabyte GA-H81M-DS2 Micro ATX Motherboard",
-      "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-h81m-ds2/ga-h81m-ds2-1-228x228.jpg",
-      "category": "motherboard",
-      "price": "90",
-      "status": "out of stock",
-      "rating": "5"
+      "name": "AMD Ryzen 5 2600X Processor",
+      "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/r5-2600/r5-500x500.jpg",
+      "category": "cpu",
+      "price": "80",
+      "status": "in stock",
+      "individualRating": "5",
+      "avgRating": "5",
+      "description": "That isn't the only change from Zen 2 to Zen 3, however. Since it is a gaming-focused CPU, the move to a single eight-core core complex (CCX) design in Zen 3 gives the 5600X a leg up over the Ryzen 5 3600X. In the Ryzen 5 3600X, the processor was split between two four-core CCXs, made up of two dual-core core chiplet dies (CCDs) each, with one CCX disabled in the second CCD  Having the cores spread across two CCDs meant that there was increased travel time for any tasks that utilized all six cores at once, which, for example, games like GTA V and titles in the Civilization series are both known for. By that same note, lightly threaded titles like Counter-Strike: Global Offensive and Rainbow Six: Siege both suffered slightly on the Ryzen 5 3600X and on the follow-up refresh in the Zen 2 stack, due to increased latency. No more, though. Now that all the cores of the Ryzen 5 5600X have been centralized into a single CCX design, AMD's engineers have reduced the travel time between cores and decreased the latency at the same time.",
+      "keyFeatures": [
+        {
+          "brand": "AMD",
+          "model": "Ryzen 5 2600X ",
+          "type": "DDR4",
+          "maximumSpeed": "2933MHz",
+          "basicFrequency": "3.6GHz"
+        }
+      ]
     },
     {
       "id": 4,
@@ -55,8 +66,19 @@
       "image": "https://www.startech.com.bd/image/cache/catalog/RAM/TwinMOS/TwinMOS%204GB%20DDR4%202400-228x228.jpg",
       "category": "ram",
       "price": "20",
-      "status": "in stock",
-      "rating": "3"
+      "status": "out of stock",
+      "individualRating": "4",
+      "avgRating": "4",
+      "description": "The TwinMOS 4GB DDR4 2400MHz Desktop RAM is a high-performance memory module designed to enhance the overall speed and efficiency of your desktop computer. With its advanced DDR4 technology, this RAM module offers improved data transfer rates and lower power consumption compared to its predecessor, DDR3, Featuring a capacity of 4GB, this RAM module provides ample space for multitasking, allowing you to run multiple applications smoothly and efficiently. The 2400MHz clock speed ensures quick data access and seamless performance, making it suitable for various computing tasks, from everyday web browsing and office work to light gaming and multimedia consumption       The TwinMOS DDR4 RAM module is engineered for compatibility with a wide range of desktop systems, ensuring easy integration without the need for complicated configurations. Its plug-and-play design simplifies the installation process, making it accessible even for users with limited technical expertise .  The module's sleek design and durable construction contribute to its reliability, ensuring stable and consistent performance over extended periods. Whether you're upgrading your existing system or building a new one, the TwinMOS 4GB DDR4 2400MHz Desktop RAM offers a cost-effective solution to enhance your computer's overall speed and responsiveness",
+      "keyFeatures": [
+        {
+          "brand": "TwinMOS",
+          "model": "TwinMOS 4GB DDR4 2400MHz",
+          "frequency": "2400MHz",
+          "operatingVoltage": "1.5v",
+          "pin": "240pin"
+        }
+      ]
     },
     {
       "id": 5,
@@ -65,7 +87,19 @@
       "category": "Power supply",
       "price": "10",
       "status": "in stock",
-      "rating": "2"
+      "individualRating": "5",
+      "avgRating": "3",
+      "description": "The Revenger VP 350 Watt Power Supply is a high-quality power supply unit designed to power your computer components in a dependable and efficient manner. It can provide constant and stable power to your system with a continuous power output of 350 watts. The power supply has a 120 mm fan to assist disperse heat and keep the operating temperature low. This power supply is designed to work with a wide range of input voltages, ranging from 100VAC to 240VAC, and a frequency range of 47-63Hz. It has an AC input of 230VAC with a current of 4A and a frequency range of 47-63Hz. This makes it compatible with most power outlets in different regions. The Revenger VP 350 Watt power supply features a DC output of +3.3V, +5V, +12V, -12V, and +5Vsb, which ensures stable and reliable power delivery to all your components. It also has a total power output of 350 watts, which means it can power most mid-range systems with ease. This Revenger VP 350 Watt Power Supply is a reliable and efficient power supply unit that can provide stable power to your computer components. With its wide range of compatibility and reliable performance, it is an excellent choice for anyone looking to upgrade their power supply unit.",
+      "keyFeatures": [
+        {
+          "brand": "Revenger",
+          "model": "VP 350",
+          "fan": "120mm",
+          "continuousPower": "350W",
+          "pin": "240pin",
+          "voltage": "100VAC – 240VAC"
+        }
+      ]
     },
     {
       "id": 6,
@@ -74,7 +108,19 @@
       "category": "Storage device",
       "price": "40",
       "status": "out of stock",
-      "rating": "4"
+      "individualRating": "3",
+      "avgRating": "4",
+      "keyFeatures": [
+        {
+          "brand": "Toshiba",
+          "model": "Toshiba S300",
+          "mpn": "HDWV110UZSVA",
+          "continuousPower": "350W",
+          "interface": "6.0 Gbit/s ",
+          "form<Factor": "3,5-inch "
+        }
+      ],
+      "description": "The Toshiba S300 1TB 5700rpm 3.5 inch Surveillance Hard Drive has been designed to satisfy your special needs and is constructed for 24/7 reliability and performance. The S300 has been designed and tested to support up to 64 excessive decision cameras, allowing bendy scalability for your protection camera structures. Compatible with DVR, NVR, video servers, and video control systems for around-the-clock security, the surveillance by no means sleeps â€“ so that you can. The Toshiba S300 1TB has a 128 MB buffer and excessive transfer charges meet the needs of surveillance facts from higher-decision digital camera streams. Improved real-time power performance is achieved via Toshiba's Dynamic Cache Technology optimizing examine and write cycle cache allocation thru an on-board cache algorithm and buffer control. Regular difficult disk drives without RV sensors can affect the performance of a multi-bay device with the aid of generating 'knock-on' vibration. The S300 guarantees high reliability with the aid of minimizing vibration effects via their advanced control and sensing technology. Multiple sensors detect the slightest surprise and built-in RV sensors also compensate for rotational vibration - removing the possibility of 'knock-on' vibration in multi-bay surveillance systems. The high-endurance, excessive-overall performance components of the S300 withstand harsh environments for advanced reliability. High-temperature environments trigger optimized are looking for velocity to support lower power consumption at the same time as automatically lowering noise and vibration emissions. Up to one million hour MTTF (Mean time to failure) and 180 TB per year workload rating offer peace of mind when working safety digicam structures. Toshiba is renowned internationally for fifty years of main innovation â€“ and the energy behind its variety of tough drives is not any exception. Designed for high capability and notable overall performance, you can be sure that Toshibaâ€™s wealth of experience in hard drives is at work for your garage system. This Toshiba S300 HDD comes with a 3-year warranty."
     }
   ]
 }

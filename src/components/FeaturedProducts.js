@@ -10,7 +10,7 @@ export default function FeaturedProducts({ featuredProducts }) {
                         <figure><Image width={200} height={100} src={product.image} alt={product.name} /></figure>
                         <div className="card-body">
                             <div className='flex justify-between'>
-                                <h2 className="card-title text-sm">
+                                <h2 className="card-title text-sm hover:text-green-500 hover:underline">
                                     {product.name}
                                 </h2>
                                 <div>

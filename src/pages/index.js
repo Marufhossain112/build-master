@@ -1,14 +1,11 @@
 // import RootLayout from '@/Layouts/RooqqtLayout';
 import RootLayout from '@/Layouts/RootLayout';
+import FeaturedCategories from '@/components/FeaturedCategories';
 import FeaturedProducts from '@/components/FeaturedProducts';
-import Navbar from '@/components/Navbar';
-import StarRating from '@/components/StarRating';
-import Image from 'next/image';
-import Container from 'postcss/lib/container';
 import React from 'react';
 
-export default function Home({ featuredProducts }) {
-  console.log("from featuredProducts", featuredProducts);
+export default function Home({ featuredProducts, categories }) {
+  console.log("from categories", categories);
   return (
     <div className='h-[100vh]'>
       {/* <ul>
@@ -30,9 +27,15 @@ export default function Home({ featuredProducts }) {
             </li>
           ))}
       </ul> */}
-      <h1 className='text-center text-xl font-semibold my-3'>Featured Products</h1>
-      <div className='flex flex-wrap gap-4 justify-center'>
+      {/* Featured Products */}
+      <h1 className='text-center text-xl font-semibold my-5'>Featured Products</h1>
+      <div className='flex flex-wrap gap-4 justify-center pb-5'>
         <FeaturedProducts featuredProducts={featuredProducts}></FeaturedProducts>
+      </div>
+      {/* Featured Categories */}
+      <h1 className='text-center text-xl font-semibold my-5'>Featured Categories</h1>
+      <div className='flex flex-wrap gap-x-6 gap-y-8 justify-center pb-5'>
+        <FeaturedCategories categories={categories}></FeaturedCategories>
       </div>
     </div >
   );
@@ -43,9 +46,12 @@ Home.getLayout = function getLayout(page) {
 export const getStaticProps = async () => {
   const res = await fetch("http://localhost:5000/featuredProducts");
   const data = await res.json();
+  const categories = await fetch("http://localhost:5000/categories");
+  const categoriesData = await categories.json();
   return {
     props: {
-      featuredProducts: data
+      featuredProducts: data,
+      categories: categoriesData
     }
   };
 };

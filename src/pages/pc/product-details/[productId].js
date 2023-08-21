@@ -55,9 +55,14 @@ export default function ProductDetails({ product }) {
             </div>
             {/* reviews */}
             <div className='p-4 shadow-lg'>
-                <div className='flex justify-start gap-2 w-full items-center'>
-                    <h2 className='font-bold text-xl py-3'>Reviews ({reviews.length}) </h2><span className='text-lg font-semibold'>Avg.
-                        { } </span><StarRating individualRating={avgRating}></StarRating><p>{`(${avgRating} out of 5)`}</p>
+                <div className='flex flex-col gap-2 w-full '>
+                    <h2 className='font-bold text-xl py-2'>Reviews ({reviews.length}) </h2>
+                    <div className='flex items-center'>
+                        <span className='text-lg font-semibold'>Avg.
+                            { } </span><StarRating individualRating={avgRating}></StarRating><p>{`(${avgRating} out of 5)`}</p>
+                    </div>
+                    <div>
+                    </div>
                 </div>
                 <hr />
                 <div>

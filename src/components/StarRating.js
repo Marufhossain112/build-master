@@ -8,9 +8,9 @@ const StarRating = ({ individualRating }) => {
                     key={index}
                     type="radio"
                     name="dynamic-rating"
-                    className={`mask mask-star-2 ${index < individualRating ? 'bg-orange-400' : 'bg-gray-400'
+                    className={`mask mask-star-2 ${index < individualRating ? 'bg-orange-400' : 'bg-gray-300'
                         }`}
-                    checked={index < individualRating}
+                    checked={index = individualRating}
                 />
             ))}
         </div>

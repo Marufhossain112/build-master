@@ -1,6 +1,7 @@
 import React from 'react';
 import RootLayout from '@/Layouts/RootLayout';
 import Image from 'next/image';
+import StarRating from '@/components/StarRating';
 export default function ProductDetails({ product }) {
     console.log("I am single product", product);
     const { name, image, category, price, status, avgRating, description, keyFeatures, reviews } = product;
@@ -47,12 +48,36 @@ export default function ProductDetails({ product }) {
         </div>
             <hr />
             {/* description */}
-            <div className='p-4'>
+            <div className='p-4 shadow-lg' >
                 <h2 className='font-bold text-xl py-3'>Description</h2>
                 <h2 className="card-title">{name}</h2>
                 <p className='text-justify'>{description}</p>
             </div>
             {/* reviews */}
+            <div className='p-4 shadow-lg'>
+                <div className='flex justify-start gap-2 w-full items-center'>
+                    <h2 className='font-bold text-xl py-3'>Reviews ({reviews.length}) </h2><span className='text-lg font-semibold'>Avg.
+                        { } </span><StarRating individualRating={avgRating}></StarRating><p>{`(${avgRating} out of 5)`}</p>
+                </div>
+                <hr />
+                <div>
+                    {reviews.map((review, index) => {
+                        // const { name, review } = review;
+                        return (
+                            <div key={index}>
+                                <div className="card w-96 bg-base-100 shadow-xl">
+                                    <div className="card-body px-0 py-1">
+                                        <div className='flex'>
+                                            <p className='font-semibold'>{review.name}</p>
+                                            <StarRating individualRating={review.rating}></StarRating>
+                                        </div>
+                                        <p className='pb-2'>{review.review}</p>
+                                    </div>
+                                </div>
+                            </div>);
+                    })}
+                </div>
+            </div>
         </>
     );
 }

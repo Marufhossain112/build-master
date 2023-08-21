@@ -19,6 +19,10 @@
           "mpn": "UM.WX2SI.H02",
           "features": "Low Blue Light, ZeroFrame Design, Inbuilt Speakers"
         }
+      ],
+      "reviews": [
+        { "name": "Miraz Khan", "review": "Nice Product", "rating": "4" },
+        { "name": "Tapos Pal", "review": "Loved it", "rating": "3" }
       ]
     },
     {
@@ -38,6 +42,14 @@
           "chipset": "Intel H81 Express",
           "mpn": "UM.WX2SI.H02"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Motin Mia",
+          "review": "Satisfied with the product",
+          "rating": "5"
+        },
+        { "name": "Robin Ghosh", "review": "Enjoyed it", "rating": "4" }
       ]
     },
     {
@@ -58,6 +70,18 @@
           "maximum speed": "2933MHz",
           "basic frequency": "3.6GHz"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Azmol Ali",
+          "review": "Happy with the product",
+          "rating": "4"
+        },
+        {
+          "name": "Stuard Broad",
+          "review": "Money not go in vain",
+          "rating": "4"
+        }
       ]
     },
     {
@@ -77,6 +101,18 @@
           "frequency": "2400MHz",
           "operating voltage": "1.5v",
           "pin": "240pin"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Arif Dewan",
+          "review": "Good Product",
+          "rating": "5"
+        },
+        {
+          "name": "Risan Sheikh",
+          "review": "Not bad",
+          "rating": "3"
         }
       ]
     },
@@ -99,6 +135,18 @@
           "pin": "240pin",
           "voltage": "100VAC – 240VAC"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Tahmina Sheikh",
+          "review": "I hate it",
+          "rating": "1"
+        },
+        {
+          "name": "Siam Sheikh",
+          "review": "My money is wasted.",
+          "rating": "2"
+        }
       ]
     },
     {
@@ -117,7 +165,19 @@
           "mpn": "HDWV110UZSVA",
           "continuous power": "350W",
           "interface": "6.0 Gbit/s ",
-          "form<Factor": "3,5-inch "
+          "form factor": "3,5-inch "
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Rakib Ahmed",
+          "review": "Useless Product",
+          "rating": "1"
+        },
+        {
+          "name": "Monir Mia",
+          "review": "Not working perfectly.",
+          "rating": "2"
         }
       ],
       "description": "The Toshiba S300 1TB 5700rpm 3.5 inch Surveillance Hard Drive has been designed to satisfy your special needs and is constructed for 24/7 reliability and performance. The S300 has been designed and tested to support up to 64 excessive decision cameras, allowing bendy scalability for your protection camera structures. Compatible with DVR, NVR, video servers, and video control systems for around-the-clock security, the surveillance by no means sleeps â€“ so that you can. The Toshiba S300 1TB has a 128 MB buffer and excessive transfer charges meet the needs of surveillance facts from higher-decision digital camera streams. Improved real-time power performance is achieved via Toshiba's Dynamic Cache Technology optimizing examine and write cycle cache allocation thru an on-board cache algorithm and buffer control. Regular difficult disk drives without RV sensors can affect the performance of a multi-bay device with the aid of generating 'knock-on' vibration. The S300 guarantees high reliability with the aid of minimizing vibration effects via their advanced control and sensing technology. Multiple sensors detect the slightest surprise and built-in RV sensors also compensate for rotational vibration - removing the possibility of 'knock-on' vibration in multi-bay surveillance systems. The high-endurance, excessive-overall performance components of the S300 withstand harsh environments for advanced reliability. High-temperature environments trigger optimized are looking for velocity to support lower power consumption at the same time as automatically lowering noise and vibration emissions. Up to one million hour MTTF (Mean time to failure) and 180 TB per year workload rating offer peace of mind when working safety digicam structures. Toshiba is renowned internationally for fifty years of main innovation â€“ and the energy behind its variety of tough drives is not any exception. Designed for high capability and notable overall performance, you can be sure that Toshibaâ€™s wealth of experience in hard drives is at work for your garage system. This Toshiba S300 HDD comes with a 3-year warranty."
@@ -142,6 +202,18 @@
           "mpn": "61E0KAR6WW",
           "features": "VESA Mount"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Asiq Hossain",
+          "review": "Got as described Product",
+          "rating": "3"
+        },
+        {
+          "name": "Lablu Singh",
+          "review": "Loved it.",
+          "rating": "4"
+        }
       ]
     },
     {
@@ -163,6 +235,13 @@
           "display": " TFT-LCD, 60Hz, 5ms",
           "features": "VESA Mount"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Moyna Banu",
+          "review": "Hate the Product",
+          "rating": "2"
+        }
       ]
     },
     {
@@ -181,6 +260,18 @@
           "cpu": "Ryzen 3rd Gen and 4th Gen processors ",
           "supportedRam": "2x DDR4, up to 4133 (OC) MHz",
           "features": "1 x M.2 Slot, Realtek 8125 2.5Gbps LAN"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Lotif Sikdar",
+          "review": "Hate the Product",
+          "rating": "1"
+        },
+        {
+          "name": "Porimoni ",
+          "review": "It was not useful.",
+          "rating": "3"
         }
       ]
     },
@@ -201,6 +292,18 @@
           "features": "1 x M.2 Slot, Realtek 8125 2.5Gbps LAN",
           "chipset": "AMD B450"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Orne Abir Orin",
+          "review": "Wasted Product",
+          "rating": "1"
+        },
+        {
+          "name": "Marufa Begum ",
+          "review": "I hate it.",
+          "rating": "2"
+        }
       ]
     },
     {
@@ -220,6 +323,18 @@
           "clock speed": "3.30 GHz Up to 4.30 GHz ",
           "basic frequency": "3.30GHz"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Akash Islam",
+          "review": "Just fabulous",
+          "rating": "5"
+        },
+        {
+          "name": "Polash Mia ",
+          "review": "Amazing.",
+          "rating": "4"
+        }
       ]
     },
     {
@@ -238,6 +353,19 @@
           "model": "Ryzen 3 4100",
           "clock speed": "3.8GHz to 4.0GHz",
           "socket": "AM4"
+        }
+      ],
+
+      "reviews": [
+        {
+          "name": "Aksan Ali",
+          "review": "Best Product",
+          "rating": "5"
+        },
+        {
+          "name": "Nazmul Hossain ",
+          "review": "Working perfectly",
+          "rating": "4"
         }
       ]
     },
@@ -259,6 +387,18 @@
           "operating voltage": "1.25v",
           "mpn": "CMK32GX5M1B5200C40"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Prodip Ghosh",
+          "review": "Joss Product",
+          "rating": "5"
+        },
+        {
+          "name": "Popon Mia ",
+          "review": "Loved it.",
+          "rating": "3"
+        }
       ]
     },
     {
@@ -278,6 +418,18 @@
           "frequency": "DDR5 5200MHz",
           "operating voltage": "1.25v",
           "mpn": "CMK32GX5M1B5200C40"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Asif Uddin",
+          "review": "Average",
+          "rating": "3"
+        },
+        {
+          "name": "Shakil ",
+          "review": "Not bad.",
+          "rating": "3"
         }
       ]
     },
@@ -300,6 +452,13 @@
           "pin": "240pin",
           "voltage": "100VAC – 240VAC"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Shakib Khan",
+          "review": "Beautiful Product",
+          "rating": "4"
+        }
       ]
     },
     {
@@ -319,6 +478,19 @@
           "power supply": "500w",
           "frequency": "50Hz/60Hz",
           "input voltage": "110v/230v"
+        }
+      ],
+
+      "reviews": [
+        {
+          "name": "Mojnu Shah",
+          "review": "Fine Product",
+          "rating": "4"
+        },
+        {
+          "name": "Alif Miah ",
+          "review": "I Loved it.",
+          "rating": "4"
         }
       ]
     },
@@ -341,6 +513,18 @@
           "rational speed": "RPM- 7200"
         }
       ],
+      "reviews": [
+        {
+          "name": "Mojnu Shah",
+          "review": "Fully satisfied with the Product",
+          "rating": "5"
+        },
+        {
+          "name": "Romiz Miah ",
+          "review": "I Loved it.",
+          "rating": "4"
+        }
+      ],
       "description": "WD Blue Solid performance and reliability for everyday computing, WD Blue hard drives deliver solid performance and reliability for desktops PCs, external, enclosures and for certain industrial applications."
     },
     {
@@ -359,6 +543,18 @@
           "capacity": " 2000 GB ",
           "interface": "SATA 6.0 Gb/s",
           "rational speed": "7200 rpm"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Mojnu Shah",
+          "review": "Really Nice Product",
+          "rating": "4"
+        },
+        {
+          "name": "Gopal Singh ",
+          "review": "Loved it.",
+          "rating": "4"
         }
       ],
       "description": "WD Blue Solid performance and reliability for everyday computing, WD Blue hard drives deliver solid performance and reliability for desktops PCs, external, enclosures and for certain industrial applications."
@@ -381,6 +577,18 @@
           "resolution": " 1200/1800/2400/3200 DPI "
         }
       ],
+      "reviews": [
+        {
+          "name": "Iqbal Hossain",
+          "review": "Awesome Product",
+          "rating": "4"
+        },
+        {
+          "name": "Musfiq ",
+          "review": "Loved it.",
+          "rating": "5"
+        }
+      ],
       "description": "The iMICE KM-760 Keyboard Mouse Gaming Combo has a multicolor backlight. This iMICE KM-760 RGB gaming keyboard and mouse combo features plug-and-play technology that eliminates the need for a CD drive and makes it easy to install. It's so smooth, responsive, and functional ergonomic RGB mouse & keyboard. This iMICE KM-760 keyboard has a total of 104 keys. The receiver that plugging into any USB port, and you can roam up to 15m away with this RGB combo kit. It's a Multicolor Backlit keyboard. This set comes with a gaming mouse. This mouse has six buttons and a DPI of 1200/1800/2400/3200 settings. This combination of Windows XP/Vista/Win7/8/10/11 system is supported."
     },
     {
@@ -401,6 +609,13 @@
           "resolution": " 1200-1800-2400-3600DPI  "
         }
       ],
+      "reviews": [
+        {
+          "name": "Halim Shah",
+          "review": "Dangerous Product",
+          "rating": "2"
+        }
+      ],
       "description": "The AULA S11 Pro Wired Gaming Mouse is a high-performance gaming mouse designed for gamers who prioritize precision and functionality. With its wired connectivity, this mouse ensures a stable and reliable connection to your gaming device, allowing for uninterrupted gameplay. The AULA S11 Pro offers customization options to suit your gaming needs. These keys can be assigned with various functions and macros, providing quick access to in-game commands and shortcuts for enhanced gaming efficiency. The mouse boasts an adjustable DPI (dots per inch) sensitivity, ranging from 1200 to 1800 to 2400 to 3600 DPI. This allows you to fine-tune the cursor speed and responsiveness based on your preferences and the demands of different gaming situations. Whether you need swift movements for fast-paced shooters or precise control for strategy games, the AULA S11 Pro has you covered. The backlighting not only enhances the aesthetics of your gaming setup but also improves visibility in low-light environments, ensuring you never lose track of your mouse during intense gaming sessions. With a cable length of 1.5 meters, the AULA S11 Pro provides ample flexibility and freedom of movement. The lightweight design of the mouse, weighing in at just 81 grams, further enhances maneuverability and reduces fatigue, enabling prolonged gaming sessions without discomfort. The AULA S11 Pro is compatible with various operating systems, including Windows 2000, XP, 7, 8, 10, Vista, and Mac. This broad compatibility ensures that you can use the mouse with a wide range of gaming devices without any compatibility issues. The AULA S11 Pro is its plug-and-play functionality, meaning it can be used without the need for additional software installation. This simplicity allows for a quick and hassle-free setup, making it an ideal choice for gamers who prefer a straightforward and seamless gaming experience. The AULA S11 Pro Wired Gaming Mouse combines performance, customization, and aesthetics to deliver a reliable and efficient gaming tool. Whether you're a casual gamer or a competitive enthusiast, this mouse offers the features and functionality needed to enhance your gaming performance and enjoyment."
     },
     {
@@ -418,6 +633,13 @@
           "model": "Redragon H310",
           "frequency range": "20~20000 Hz",
           "color": "Black"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Nasim Shah",
+          "review": "Cool Product",
+          "rating": "4"
         }
       ],
       "description": "With 50mm dynamic stereo driver unit, 24bit HD digital decode and optimal 48K Hi-Fi audio system, Redragon H310 MUSES Wired Gaming Headset capable for you to hear and enjoy the copious audio experience anywhere anytime. You can set up virtual 7.1 surround-sound with Redragon professional software to quickly locate the position of the enemy near you on the battlefield. No matter how slightly they move, you will catch their traces every time behind the wall or under the water. Noise cancellation microphone on the left get you a clear voice quality with background noise reduction. The mic is easy to swivel down for awesome and smooth communication in the game or other chatting occasions, swivel up to turn it off and enjoy music. Ear-pads designed with all-over style make sure your ears don’t get squished, the memory foam filler keeps your ear away from dyspnea. The headband with the same material design plus a solid frame makes the headset lightweight and durable, which suits your head well and leaves no long-time wearing fatigue. USB wide connected to PC/MAC, also compatible with PS4/PS3. Braiding craft makes the cable more durable for years using, placing the device horizontally on the desktop will automatically turn itself off for a long lifespan using. This Redragon H310 MUSES Wired Gaming Headset comes with a 1-year warranty."
@@ -443,6 +665,10 @@
           "mpn": "UM.WX2SI.H02",
           "features": "Low Blue Light, ZeroFrame Design, Inbuilt Speakers"
         }
+      ],
+      "reviews": [
+        { "name": "Miraz Khan", "review": "Nice Product", "rating": "4" },
+        { "name": "Tapos Pal", "review": "Loved it", "rating": "3" }
       ]
     },
     {
@@ -462,6 +688,14 @@
           "chipset": "Intel H81 Express",
           "mpn": "UM.WX2SI.H02"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Motin Mia",
+          "review": "Satisfied with the product",
+          "rating": "5"
+        },
+        { "name": "Robin Ghosh", "review": "Enjoyed it", "rating": "4" }
       ]
     },
     {
@@ -482,6 +716,18 @@
           "maximum speed": "2933MHz",
           "basic frequency": "3.6GHz"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Azmol Ali",
+          "review": "Happy with the product",
+          "rating": "4"
+        },
+        {
+          "name": "Stuard Broad",
+          "review": "Money not go in vain",
+          "rating": "4"
+        }
       ]
     },
     {
@@ -501,6 +747,18 @@
           "frequency": "2400MHz",
           "operating voltage": "1.5v",
           "pin": "240pin"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Arif Dewan",
+          "review": "Good Product",
+          "rating": "5"
+        },
+        {
+          "name": "Risan Sheikh",
+          "review": "Not bad",
+          "rating": "3"
         }
       ]
     },
@@ -523,6 +781,13 @@
           "pin": "240pin",
           "voltage": "100VAC – 240VAC"
         }
+      ],
+      "reviews": [
+        {
+          "name": "Shakib Khan",
+          "review": "Beautiful Product",
+          "rating": "4"
+        }
       ]
     },
     {
@@ -541,7 +806,19 @@
           "mpn": "HDWV110UZSVA",
           "continuous power": "350W",
           "interface": "6.0 Gbit/s ",
-          "form<Factor": "3,5-inch "
+          "form factor": "3,5-inch "
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Rakib Ahmed",
+          "review": "Useless Product",
+          "rating": "1"
+        },
+        {
+          "name": "Monir Mia",
+          "review": "Not working perfectly.",
+          "rating": "2"
         }
       ],
       "description": "The Toshiba S300 1TB 5700rpm 3.5 inch Surveillance Hard Drive has been designed to satisfy your special needs and is constructed for 24/7 reliability and performance. The S300 has been designed and tested to support up to 64 excessive decision cameras, allowing bendy scalability for your protection camera structures. Compatible with DVR, NVR, video servers, and video control systems for around-the-clock security, the surveillance by no means sleeps â€“ so that you can. The Toshiba S300 1TB has a 128 MB buffer and excessive transfer charges meet the needs of surveillance facts from higher-decision digital camera streams. Improved real-time power performance is achieved via Toshiba's Dynamic Cache Technology optimizing examine and write cycle cache allocation thru an on-board cache algorithm and buffer control. Regular difficult disk drives without RV sensors can affect the performance of a multi-bay device with the aid of generating 'knock-on' vibration. The S300 guarantees high reliability with the aid of minimizing vibration effects via their advanced control and sensing technology. Multiple sensors detect the slightest surprise and built-in RV sensors also compensate for rotational vibration - removing the possibility of 'knock-on' vibration in multi-bay surveillance systems. The high-endurance, excessive-overall performance components of the S300 withstand harsh environments for advanced reliability. High-temperature environments trigger optimized are looking for velocity to support lower power consumption at the same time as automatically lowering noise and vibration emissions. Up to one million hour MTTF (Mean time to failure) and 180 TB per year workload rating offer peace of mind when working safety digicam structures. Toshiba is renowned internationally for fifty years of main innovation â€“ and the energy behind its variety of tough drives is not any exception. Designed for high capability and notable overall performance, you can be sure that Toshibaâ€™s wealth of experience in hard drives is at work for your garage system. This Toshiba S300 HDD comes with a 3-year warranty."

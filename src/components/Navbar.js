@@ -44,7 +44,7 @@ export default function Navbar() {
                     <li tabIndex={0}>
                         <details>
                             <summary>Categories</summary>
-                            <ul className="p-2">
+                            <ul className="p-2 z-50">
                                 <li><Link href="/pc/parts/cpu">CPU</Link></li>
                                 <li><Link href="/pc/parts/motherboard">Motherboard</Link></li>
                                 <li><Link href="/pc/parts/ram">RAM</Link></li>

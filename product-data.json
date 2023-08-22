@@ -1,10 +1,672 @@
 {
-  "products": [
+  "CPU": [
+    {
+      "id": 1,
+      "name": "AMD Ryzen 3 4100 Processor",
+      "image": "https://www.startech.com.bd/image/cache/catalog/processor/AMD/ryzen-3-4100/amd-ryzen-3-4100-01-500x500.jpg",
+      "category": "CPU",
+      "price": "103",
+      "status": "out of stock",
+      "individualRating": "4",
+      "avgRating": "5",
+      "description": "The latest Intel 12th Gen Core i3-12100F Processor comes with 4 cores and 8 threads. It has a base frequency of 3.30 GHz and a maximum boost frequency of up to 4.30 GHz. The i3-12100F Alder Lake Processor comes with a 12 MB Intel Smart Cache and it has a 5 MB L2 cache. It features a Processor Base Power of 58W and a maximum turbo power of 89W. The Intel Core i3-12100F comes with 2 memory channels and it supports 128GB of maximum memory. The maximum bandwidth is 76.8 GB/s.",
+      "keyFeatures": [
+        {
+          "brand": "AMD",
+          "model": "Ryzen 3 4100",
+          "clock speed": "3.8GHz to 4.0GHz",
+          "socket": "AM4"
+        }
+      ],
+
+      "reviews": [
+        {
+          "name": "Aksan Ali",
+          "review": "Best Product",
+          "rating": "5"
+        },
+        {
+          "name": "Nazmul Hossain ",
+          "review": "Working perfectly",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Intel Core i3-12100F 12th Gen Alder Lake Processor",
+      "image": "https://www.startech.com.bd/image/cache/catalog/processor/intel/i3-12100f/i3-12100f-500x500.jpg",
+      "category": "CPU",
+      "price": "120",
+      "status": "in stock",
+      "individualRating": "4",
+      "avgRating": "5",
+      "description": "The latest Intel 12th Gen Core i3-12100F Processor comes with 4 cores and 8 threads. It has a base frequency of 3.30 GHz and a maximum boost frequency of up to 4.30 GHz. The i3-12100F Alder Lake Processor comes with a 12 MB Intel Smart Cache and it has a 5 MB L2 cache. It features a Processor Base Power of 58W and a maximum turbo power of 89W. The Intel Core i3-12100F comes with 2 memory channels and it supports 128GB of maximum memory. The maximum bandwidth is 76.8 GB/s.",
+      "keyFeatures": [
+        {
+          "brand": "INTEL",
+          "model": "Core i3-12100F 12th Gen",
+          "clock speed": "3.30 GHz Up to 4.30 GHz ",
+          "basic frequency": "3.30GHz"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Akash Islam",
+          "review": "Just fabulous",
+          "rating": "5"
+        },
+        {
+          "name": "Polash Mia ",
+          "review": "Amazing.",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "AMD Ryzen 5 2600X Processor",
+      "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/r5-2600/r5-500x500.jpg",
+      "category": "CPU",
+      "price": "80",
+      "status": "in stock",
+      "individualRating": "5",
+      "avgRating": "5",
+      "description": "That isn't the only change from Zen 2 to Zen 3, however. Since it is a gaming-focused CPU, the move to a single eight-core core complex (CCX) design in Zen 3 gives the 5600X a leg up over the Ryzen 5 3600X. In the Ryzen 5 3600X, the processor was split between two four-core CCXs, made up of two dual-core core chiplet dies (CCDs) each, with one CCX disabled in the second CCD  Having the cores spread across two CCDs meant that there was increased travel time for any tasks that utilized all six cores at once, which, for example, games like GTA V and titles in the Civilization series are both known for. By that same note, lightly threaded titles like Counter-Strike: Global Offensive and Rainbow Six: Siege both suffered slightly on the Ryzen 5 3600X and on the follow-up refresh in the Zen 2 stack, due to increased latency. No more, though. Now that all the cores of the Ryzen 5 5600X have been centralized into a single CCX design, AMD's engineers have reduced the travel time between cores and decreased the latency at the same time.",
+      "keyFeatures": [
+        {
+          "brand": "AMD",
+          "model": "Ryzen 5 2600X ",
+          "type": "DDR4",
+          "maximum speed": "2933MHz",
+          "basic frequency": "3.6GHz"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Azmol Ali",
+          "review": "Happy with the product",
+          "rating": "4"
+        },
+        {
+          "name": "Stuard Broad",
+          "review": "Money not go in vain",
+          "rating": "4"
+        },
+        {
+          "name": "Robin Utthapa",
+          "review": "As usual, not so cool.",
+          "rating": "3"
+        }
+      ]
+    }
+  ],
+  "Monitor": [
+    {
+      "id": 1,
+      "name": "PHILIPS 18.5 inch 193V5LSB2 LED MONITOR",
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/philips/193v/193v-500x500.png",
+      "category": "Monitor",
+      "price": "85",
+      "status": "out of stock",
+      "individualRating": "5",
+      "avgRating": "5",
+      "description": "Smart Contrast for rich black details Smart Contrast is a Philips technology that analyzes the contents you are displaying, automatically adjusting colors and controlling back-light intensity to dynamically enhance contrast for the best digital images and videos or when playing games where dark hues are displayed. When Economy mode is selected, contrast is adjusted and back-lighting fine-tuned for just-right display of everyday office applications and lower power consumption.",
+      "keyFeatures": [
+        {
+          "brand": "PHILIPS",
+          "model": "193V",
+          "resolution": "1366 x 768",
+          "ports": "VGA ",
+          "display": " TFT-LCD, 60Hz, 5ms",
+          "features": "VESA Mount"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Moyna Banu",
+          "review": "Hate the Product",
+          "rating": "2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lenovo D19-10 18.5 Inch HD HDMI VGA Monitor",
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/lenovo/d19-10/d19-10-01-500x500.jpg",
+      "category": "Monitor",
+      "price": "75",
+      "status": "in stock",
+      "individualRating": "5",
+      "avgRating": "4",
+      "description": "The Lenovo D19-10 is a simple and affordable display solution. It has been designed to offer a hassle-free user experience. It has a TN panel display with a resolution of 1366x768 (WxH) HD. It gives a comfortable visual experience featuring TœV Low Blue Light. This monitor comes with HDMI and VGA input. It features a 60Hz refresh rate and a response time of only 5ms. It has a brightness level of 200 cd/m² and a contrast ratio of 600:1.  It supports a quick-release tilt stand and VESA mount. It has a tilt angle of -5° / 22°. It requires 100 - 240 VAC and 50-60Hz power. The Lenovo D19-10 18.5 inch WLED Monitor comes with 3 years of warranty.",
+      "keyFeatures": [
+        {
+          "brand": "Lenevo",
+          "model": "D19-10",
+          "resolution": "1366 x 768",
+          "ports": "VGA, HDMI ",
+          "display": "TN, 60Hz, 5ms",
+          "mpn": "61E0KAR6WW",
+          "features": "VESA Mount"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Asiq Hossain",
+          "review": "Got as described Product",
+          "rating": "3"
+        },
+        {
+          "name": "Lablu Singh",
+          "review": "Loved it.",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Acer KA222Q  100Hz AMD FreeSync Full HD Monitor",
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/ka222q-h/ka222q-h-01-500x500.webp",
+      "category": "Monitor",
+      "price": "45",
+      "status": "in stock",
+      "individualRating": "4",
+      "avgRating": "4",
+      "description": "The Acer KA222Q H is a high-quality 21.5-inch monitor designed for a smooth and immersive visual experience. With its Full HD resolution of 1920 x 1080 pixels, it delivers crisp and detailed images, making it ideal for gaming, multimedia, and everyday computing tasks. The monitor features a VA (Vertical Alignment) display panel, which offers wide viewing angles and excellent color reproduction, ensuring that images appear vibrant and lifelike from various perspectives. The 100Hz refresh rate provides a smoother viewing experience, reducing motion blur and making fast-paced action scenes in movies or games more fluid. Thanks to its 1 ms response time, the Acer KA222Q H excels in reducing ghosting and motion artifacts, allowing for seamless transitions and sharper visuals, particularly in fast-moving scenes. This makes it a fantastic choice for gamers who require quick reactions and smooth gameplay. Connectivity options on the Acer KA222Q H include a VGA and an HDMI port, enabling you to connect various devices such as computers, laptops, gaming consoles, and media players. The VGA port allows for analog connections, while the HDMI port supports digital connections, providing flexibility and compatibility with different devices. Notable features of the Acer KA222Q H include AMD FreeSync technology, which synchronizes the monitor's refresh rate with the graphics card's output, eliminating screen tearing and stuttering, resulting in a seamless and tear-free gaming experience. The monitor also incorporates Low Blue Light technology, which reduces the amount of harmful blue light emitted by the screen, minimizing eye strain and fatigue during extended use. The ZeroFrame design of the Acer KA222Q H ensures a sleek and modern appearance, with ultra-thin bezels that maximize the screen real estate and facilitate multi-monitor setups for an immersive viewing experience. The Acer KA222Q H 21.5 inch monitor offers a Full HD resolution, a VA display with wide viewing angles, a 100Hz refresh rate, and a 1 ms response time. With its AMD FreeSync technology, Low Blue Light feature, and ZeroFrame design, it provides a smooth, comfortable, and visually stunning experience for both gaming and general multimedia usage.",
+      "keyFeatures": [
+        {
+          "model": "KA222Q H",
+          "resolution": "FHD (1920 x 1080) ",
+          "ports": "VGA, HDMI ",
+          "display": "VA, 100Hz, 1 ms ",
+          "mpn": "UM.WX2SI.H02",
+          "features": "Low Blue Light, ZeroFrame Design, Inbuilt Speakers"
+        }
+      ],
+      "reviews": [
+        { "name": "Miraz Khan", "review": "Nice Product", "rating": "4" },
+        { "name": "Tapos Pal", "review": "Loved it", "rating": "3" }
+      ]
+    }
+  ],
+  "Motherboard": [
+    {
+      "id": 1,
+      "name": "Gigabyte B450M S2H AMD AM4 Micro ATX Motherboard",
+      "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/b450m-s2h-ultra/b450m-s2h-ultra-1-500x500.jpg",
+      "category": "Motherboard",
+      "price": "105",
+      "status": "in stock",
+      "individualRating": "5",
+      "avgRating": "4",
+      "description": "Gigabyte B450M S2H UAMD AM4 Motherboard introduce the latest Ryzen 2000 series processors to provide the computing power for gaming need. GIGABYTE's 400 series motherboards perfectly fit the latest AMD Ryzen 2000 series processors' computing performance with more features and more control. Users can enjoy the benefits brought by AMD Ryzen 2000 series processors which maximize your PC's potential with AMD StoreMI technology. By adding this AMD StoreMI, It making the PC experience fast, smooth and easy, optimizing computer responsiveness from system boot to application launch, offering SSD performance with HDD capacity at an affordable cost and also quickly accessing key files by automatically learning users' computing behaviors.",
+      "keyFeatures": [
+        {
+          "model": "Gigabyte B450M S2H ULTRA Durable",
+          "supportedRam": "2x DDR4, up to 4133 (OC) MHz",
+          "features": "1 x M.2 Slot, Realtek 8125 2.5Gbps LAN",
+          "chipset": "AMD B450"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Orne Abir Orin",
+          "review": "Wasted Product",
+          "rating": "1"
+        },
+        {
+          "name": "Marufa Begum ",
+          "review": "I hate it.",
+          "rating": "2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MSI B450M-A PRO MAX II AMD AM4 Motherboard",
+      "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/b450m-a-pro-max-ii/b450m-a-pro-max-ii-01-500x500.webp",
+      "category": "Motherboard",
+      "price": "89",
+      "status": "in stock",
+      "individualRating": "4",
+      "avgRating": "4",
+      "description": "The MSI B450M-A PRO MAX II AMD AM4 Motherboard is designed to support a wide range of processors, from AMD Ryzen 5000 Series to Athlon with Radeon Vega Graphics desktop processors, it ensures versatility. With support for DDR4 Memory up to 4133 (OC) MHz, it delivers rapid and efficient performance. The Turbo M.2 feature, running at PCI-E Gen3 x4, maximizes the performance of NVMe based SSDs. Experience studio-grade sound quality with Audio Boost, while the 2.5G LAN provides an upgraded network solution for professional and multimedia use. X-Boost software detects and enhances the performance of storage and USB devices, adding convenience. With Core Boost, the motherboard features a premium layout and fully digital power design, ensuring support for more cores and improved performance. The MSI B450M-A PRO MAX II AMD AM4 Motherboard combines aesthetics, power, and functionality for a dynamic computing experience.",
+      "keyFeatures": [
+        {
+          "model": "B450M-A PRO MAX II",
+          "CPU": "Ryzen 3rd Gen and 4th Gen processors ",
+          "supportedRam": "2x DDR4, up to 4133 (OC) MHz",
+          "features": "1 x M.2 Slot, Realtek 8125 2.5Gbps LAN"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Lotif Sikdar",
+          "review": "Hate the Product",
+          "rating": "1"
+        },
+        {
+          "name": "Porimoni ",
+          "review": "It was not useful.",
+          "rating": "3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gigabyte GA-H81M-DS2 Micro ATX Motherboard",
+      "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-h81m-ds2/ga-h81m-ds2-1-228x228.jpg",
+      "category": "Motherboard",
+      "price": "90",
+      "status": "out of stock",
+      "individualRating": "5",
+      "avgRating": "4",
+      "description": "Gigabyte GA-H81M-DS2 Micro ATX ultra durable motherboard has the compatibility with 4th gen Intel processors. This board also supports dual channel DDR3 maximum 16GB memory and dual Ultra-Fast SATA interface. Focusing on the graphics, it has integrated Intel HD graphics with 1GB shared graphics memory containing the resolution of 1920x1200 Hz for D-Sub port. This basic motherboard has the facility of GIGABYTE On/Off Chargeâ„¢ for USB devices, LAN with high ESD Protection and USB 3.0 ports with GIGABYTE 3x USB power. This All solid capacitors design board also contain GIGABYTE UEFI DualBIOSâ„¢ Technology and LPT, COM, D-SUB port on rear panel  Purchase high quality basic Gigabyte boards within your range, available at best price at Star Tech. We provide the best service for every customer. Online shopping have made our life very easy to buy our desired item to build your dream PC",
+      "keyFeatures": [
+        {
+          "model": "GA-H81M-DS2",
+          "CPU": "4th Generation Intel Processors ",
+          "chipset": "Intel H81 Express",
+          "mpn": "UM.WX2SI.H02"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Motin Mia",
+          "review": "Satisfied with the product",
+          "rating": "5"
+        },
+        { "name": "Robin Ghosh", "review": "Enjoyed it", "rating": "4" }
+      ]
+    }
+  ],
+  "RAM": [
+    {
+      "id": 1,
+      "name": "TwinMOS 4GB DDR4 2400MHz Desktop RAM",
+      "image": "https://www.startech.com.bd/image/cache/catalog/RAM/TwinMOS/TwinMOS%204GB%20DDR4%202400-228x228.jpg",
+      "category": "RAM",
+      "price": "20",
+      "status": "out of stock",
+      "individualRating": "4",
+      "avgRating": "4",
+      "description": "The TwinMOS 4GB DDR4 2400MHz Desktop RAM is a high-performance memory module designed to enhance the overall speed and efficiency of your desktop computer. With its advanced DDR4 technology, this RAM module offers improved data transfer rates and lower power consumption compared to its predecessor, DDR3, Featuring a capacity of 4GB, this RAM module provides ample space for multitasking, allowing you to run multiple applications smoothly and efficiently. The 2400MHz clock speed ensures quick data access and seamless performance, making it suitable for various computing tasks, from everyday web browsing and office work to light gaming and multimedia consumption       The TwinMOS DDR4 RAM module is engineered for compatibility with a wide range of desktop systems, ensuring easy integration without the need for complicated configurations. Its plug-and-play design simplifies the installation process, making it accessible even for users with limited technical expertise .  The module's sleek design and durable construction contribute to its reliability, ensuring stable and consistent performance over extended periods. Whether you're upgrading your existing system or building a new one, the TwinMOS 4GB DDR4 2400MHz Desktop RAM offers a cost-effective solution to enhance your computer's overall speed and responsiveness",
+      "keyFeatures": [
+        {
+          "brand": "TwinMOS",
+          "model": "TwinMOS 4GB DDR4 2400MHz",
+          "frequency": "2400MHz",
+          "operating voltage": "1.5v",
+          "pin": "240pin"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Arif Dewan",
+          "review": "Good Product",
+          "rating": "5"
+        },
+        {
+          "name": "Risan Sheikh",
+          "review": "Not bad",
+          "rating": "3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM",
+      "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-ddr5/vengeance-01-500x500.webp",
+      "category": "RAM",
+      "price": "13",
+      "status": "in stock",
+      "individualRating": "4",
+      "avgRating": "5",
+      "description": "The Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM is a high-performance memory module that allows you to push the limits of your system like never before. With DDR5 technology, it offers faster frequencies, greater capacities, and improved overall performance compared to previous generations of RAM. The DDR5 memory ensures that your high-end CPU can access data quickly and efficiently, enhancing your system's overall responsiveness. Whether you're a gamer, content creator, or multi-tasker who constantly has numerous applications and browser tabs open, this RAM allows your PC to power through complex tasks faster than ever before. The Corsair VENGEANCE DDR5 RAM is its built-in voltage regulation and iCUE software control. This combination enables easier and more precise output tuning, resulting in more stable overclocking. You have the power and control to fine-tune your system's performance according to your needs and preferences. This RAM module supports Custom Intel XMP 3.0 profiles. This feature eliminates the need for manually adjusting performance settings every time you want to optimize your system. By saving your own XMP profiles through the iCUE software, you can easily customize and tailor your settings by application or task, maximizing efficiency and ensuring optimal performance for different use cases. The Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM is designed to deliver exceptional performance and speed, allowing you to unleash the full potential of your system. With its DDR5 technology, built-in voltage regulation, and support for custom XMP profiles, this RAM module provides a seamless and efficient experience for gamers, content creators, and multi-taskers alike.",
+      "keyFeatures": [
+        {
+          "brand": "Corsair",
+          "model": "VENGEANCE DDR5",
+          "frequency": "DDR5 5200MHz",
+          "operating voltage": "1.25v",
+          "mpn": "CMK32GX5M1B5200C40"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Prodip Ghosh",
+          "review": "Joss Product",
+          "rating": "5"
+        },
+        {
+          "name": "Popon Mia ",
+          "review": "Loved it.",
+          "rating": "3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Transcend JetRam 4GB DDR4",
+      "image": "https://www.startech.com.bd/image/cache/catalog/ram/transcend/jetram-4gb/jetram-4gb-01-500x500.webp",
+      "category": "RAM",
+      "price": "14",
+      "status": "in stock",
+      "individualRating": "4",
+      "avgRating": "5",
+      "description": "The Transcend JetRam 4GB DDR4 3200MHz Desktop RAM is made with genuine ETT grade, brand-name DRAM chips that have passed Transcend's stringent screening and testing procedures. The modules offer outstanding compatibility and fully-tested dependability, making them perfect for PC upgrades at a low cost. Each memory module is rated at 3200MHz, which dramatically increases data transfer efficiency by providing up to 25.6GB/s of bandwidth. Transcend's DDR4 U-DIMM JetRam memory, which operates at a nominal voltage of just 1.2V, means that both operating temperature and electrical load on the memory controller may be lowered, saving up to 40% of energy when compared to typical DDR3 modules that deliver 1.5V. In Bangladesh, you can get the original Transcend JetRam 4GB DDR4 3200MHz U-DIMM Desktop RAM From Star Tech. We have a large collection of the latest Transcend RAM to purchase for your Device. Order Online Or Visit your Nearest Star Tech Shop to get yours at the lowest price. The Transcend JetRam 4GB DDR4 3200MHz Desktop RAM comes with a lifetime warranty.",
+      "keyFeatures": [
+        {
+          "brand": "Corsair",
+          "model": "VENGEANCE DDR5",
+          "frequency": "DDR5 5200MHz",
+          "operating voltage": "1.25v",
+          "mpn": "CMK32GX5M1B5200C40"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Asif Uddin",
+          "review": "Average",
+          "rating": "3"
+        },
+        {
+          "name": "Shakil ",
+          "review": "Not bad.",
+          "rating": "3"
+        }
+      ]
+    }
+  ],
+  "Power-Supply": [
+    {
+      "id": 1,
+      "name": "Revenger VP 350 Watt Power Supply",
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-228x228.webp",
+      "category": "Power-Supply",
+      "price": "10",
+      "status": "in stock",
+      "individualRating": "1",
+      "avgRating": "3",
+      "description": "The Revenger VP 350 Watt Power Supply is a high-quality power supply unit designed to power your computer components in a dependable and efficient manner. It can provide constant and stable power to your system with a continuous power output of 350 watts. The power supply has a 120 mm fan to assist disperse heat and keep the operating temperature low. This power supply is designed to work with a wide range of input voltages, ranging from 100VAC to 240VAC, and a frequency range of 47-63Hz. It has an AC input of 230VAC with a current of 4A and a frequency range of 47-63Hz. This makes it compatible with most power outlets in different regions. The Revenger VP 350 Watt power supply features a DC output of +3.3V, +5V, +12V, -12V, and +5Vsb, which ensures stable and reliable power delivery to all your components. It also has a total power output of 350 watts, which means it can power most mid-range systems with ease. This Revenger VP 350 Watt Power Supply is a reliable and efficient power supply unit that can provide stable power to your computer components. With its wide range of compatibility and reliable performance, it is an excellent choice for anyone looking to upgrade their power supply unit.",
+      "keyFeatures": [
+        {
+          "brand": "Revenger",
+          "model": "VP 350",
+          "fan": "120mm",
+          "continuous power": "350W",
+          "pin": "240pin",
+          "voltage": "100VAC – 240VAC"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Shakib Khan",
+          "review": "Beautiful Product",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MaxGreen MG-P500W ATX Power Supply",
+      "image": "https://www.startech.com.bd/image/cache/catalog/Component/power%20supply/maxgreen/mxgrn-500x500.JPG",
+      "category": "Power-Supply",
+      "price": "20",
+      "status": "out of stock",
+      "individualRating": "4",
+      "avgRating": "5",
+      "description": "The MaxGreen MG-P500W ATX Power Supply has an input voltage of 110v/230v, a frequency of 50Hz/60Hz, and a current of 10A/5A. This Power Supply comes with a 03-month warranty.The latest price of MaxGreen MG-P500W ATX Power Supply in Bangladesh is 1,000৳. You can buy the MaxGreen MG-P500W ATX Power Supply at best price from our website or visit any of our showrooms.",
+      "keyFeatures": [
+        {
+          "brand": "MaxGreen",
+          "model": "MaxGreen MG-P500W",
+          "power-Supply": "500w",
+          "frequency": "50Hz/60Hz",
+          "input voltage": "110v/230v"
+        }
+      ],
+
+      "reviews": [
+        {
+          "name": "Mojnu Shah",
+          "review": "Fine Product",
+          "rating": "4"
+        },
+        {
+          "name": "Alif Miah ",
+          "review": "I Loved it.",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Antec META V350 350W Power Supply",
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/antec/meta-v350/meta-v350-01-500x500.webp",
+      "category": "Power-Supply",
+      "price": "15",
+      "status": "out of stock",
+      "individualRating": "4",
+      "avgRating": "5",
+      "description": "The Antec META V350 is a 350-watt power supply unit that comes with a 24-pin connector (520mm in length), an 8-pin connector for EPS12V (4+4-pin) (550mm in length), an 8-pin connector for PCI-E (6+2-pin) (550mm in length), two 6-pin connectors for SATA (400mm in length each), and two 6-pin connectors for SATA (400mm in length each). The PSU comes with a Thermal Manager and a 120mm silent fan. It is an advanced low-voltage fan control for optimal heat & noise management and will allow your PSU to stay at an optimal temperature. The 120 mm Silent Fan is ideal for quiet computing and is designed for longer life, guaranteeing hours of operation. It has an AC input voltage of 230VAC, with a frequency range of 47-63Hz and an input current of 5A. The DC output consists of +3.3V, +5V, +12V, -12V, and +5Vsb with maximum current ratings of 18A, 16A, 42A, 0.3A, and 2.5A respectively. The total combined power of the output is 110W, 300W, 3.6W, and 12.5W. The total wattage of the power supply is 350W.",
+      "keyFeatures": [
+        {
+          "brand": "Antec",
+          "model": "Antec META V350 350W",
+          "power-Supply": "500w",
+          "frequency": "50Hz/60Hz",
+          "input voltage": "110v/230v"
+        }
+      ],
+
+      "reviews": [
+        {
+          "name": "Mojnu Shah",
+          "review": "Fine Product",
+          "rating": "4"
+        },
+        {
+          "name": "Alif Miah ",
+          "review": "I Loved it.",
+          "rating": "4"
+        }
+      ]
+    }
+  ],
+  "Storage-Device": [
+    {
+      "id": 1,
+      "name": "Western Digital 1TB Blue Desktop HDD",
+      "image": "https://www.startech.com.bd/image/cache/catalog/HDD/Western%20Digital/WD%20INT%20Blue%201TB-500x500.jpg",
+      "category": "Storage-Device",
+      "price": "44",
+      "status": "in stock",
+      "individualRating": "4",
+      "avgRating": "5",
+      "keyFeatures": [
+        {
+          "brand": "WESTERN DIGITAL",
+          "model": "WD10EZEX",
+          "capacity": " 1000 GB ",
+          "interface": "SATA 6 Gb/s",
+          "rational speed": "RPM- 7200"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Mojnu Shah",
+          "review": "Fully satisfied with the Product",
+          "rating": "5"
+        },
+        {
+          "name": "Romiz Miah ",
+          "review": "I Loved it.",
+          "rating": "4"
+        }
+      ],
+      "description": "WD Blue Solid performance and reliability for everyday computing, WD Blue hard drives deliver solid performance and reliability for desktops PCs, external, enclosures and for certain industrial applications."
+    },
+    {
+      "id": 2,
+      "name": "Toshiba S300 1TB 5700rpm Surveillance ",
+      "image": "https://www.startech.com.bd/image/cache/catalog/hdd/toshiba/s300/s300-1tb-01-228x228.jpg",
+      "category": "Storage-Device",
+      "price": "40",
+      "status": "out of stock",
+      "individualRating": "5",
+      "avgRating": "4",
+      "keyFeatures": [
+        {
+          "brand": "Toshiba",
+          "model": "Toshiba S300",
+          "mpn": "HDWV110UZSVA",
+          "continuous power": "350W",
+          "interface": "6.0 Gbit/s ",
+          "form factor": "3,5-inch "
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Rakib Ahmed",
+          "review": "Useless Product",
+          "rating": "1"
+        },
+        {
+          "name": "Monir Mia",
+          "review": "Not working perfectly.",
+          "rating": "2"
+        }
+      ],
+      "description": "The Toshiba S300 1TB 5700rpm 3.5 inch Surveillance Hard Drive has been designed to satisfy your special needs and is constructed for 24/7 reliability and performance. The S300 has been designed and tested to support up to 64 excessive decision cameras, allowing bendy scalability for your protection camera structures. Compatible with DVR, NVR, video servers, and video control systems for around-the-clock security, the surveillance by no means sleeps â€“ so that you can. The Toshiba S300 1TB has a 128 MB buffer and excessive transfer charges meet the needs of surveillance facts from higher-decision digital camera streams. Improved real-time power performance is achieved via Toshiba's Dynamic Cache Technology optimizing examine and write cycle cache allocation thru an on-board cache algorithm and buffer control. Regular difficult disk drives without RV sensors can affect the performance of a multi-bay device with the aid of generating 'knock-on' vibration. The S300 guarantees high reliability with the aid of minimizing vibration effects via their advanced control and sensing technology. Multiple sensors detect the slightest surprise and built-in RV sensors also compensate for rotational vibration - removing the possibility of 'knock-on' vibration in multi-bay surveillance systems. The high-endurance, excessive-overall performance components of the S300 withstand harsh environments for advanced reliability. High-temperature environments trigger optimized are looking for velocity to support lower power consumption at the same time as automatically lowering noise and vibration emissions. Up to one million hour MTTF (Mean time to failure) and 180 TB per year workload rating offer peace of mind when working safety digicam structures. Toshiba is renowned internationally for fifty years of main innovation â€“ and the energy behind its variety of tough drives is not any exception. Designed for high capability and notable overall performance, you can be sure that Toshibaâ€™s wealth of experience in hard drives is at work for your garage system. This Toshiba S300 HDD comes with a 3-year warranty."
+    },
+    {
+      "id": 3,
+      "name": "Seagate Barracuda 2TB 7200RPM",
+      "image": "https://www.startech.com.bd/image/cache/catalog/hdd/seagate/2tb-7200rpm/2tb-7200rpm-1-500x500.jpg",
+      "category": "Storage-Device",
+      "price": "72",
+      "status": "out of stock",
+      "individualRating": "4",
+      "avgRating": "5",
+      "keyFeatures": [
+        {
+          "brand": "Seagate",
+          "model": "Seagate Barracuda",
+          "capacity": " 2000 GB ",
+          "interface": "SATA 6.0 Gb/s",
+          "rational speed": "7200 rpm"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Mojnu Shah",
+          "review": "Really Nice Product",
+          "rating": "4"
+        },
+        {
+          "name": "Gopal Singh ",
+          "review": "Loved it.",
+          "rating": "4"
+        }
+      ],
+      "description": "WD Blue Solid performance and reliability for everyday computing, WD Blue hard drives deliver solid performance and reliability for desktops PCs, external, enclosures and for certain industrial applications."
+    }
+  ],
+  "Others": [
+    {
+      "id": 1,
+      "name": "iMICE KM-760 RGB",
+      "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/imice/km-760/km-760-01-500x500.webp",
+      "category": "Others",
+      "price": "13",
+      "status": "in stock",
+      "individualRating": "3",
+      "avgRating": "4",
+      "keyFeatures": [
+        {
+          "brand": "iMICE",
+          "model": "iMICE KM-760 RGB",
+          "key number": "104 keys",
+          "mouse key": "4 keys",
+          "resolution": " 1200/1800/2400/3200 DPI "
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Iqbal Hossain",
+          "review": "Awesome Product",
+          "rating": "4"
+        },
+        {
+          "name": "Musfiq ",
+          "review": "Loved it.",
+          "rating": "5"
+        }
+      ],
+      "description": "The iMICE KM-760 Keyboard Mouse Gaming Combo has a multicolor backlight. This iMICE KM-760 RGB gaming keyboard and mouse combo features plug-and-play technology that eliminates the need for a CD drive and makes it easy to install. It's so smooth, responsive, and functional ergonomic RGB mouse & keyboard. This iMICE KM-760 keyboard has a total of 104 keys. The receiver that plugging into any USB port, and you can roam up to 15m away with this RGB combo kit. It's a Multicolor Backlit keyboard. This set comes with a gaming mouse. This mouse has six buttons and a DPI of 1200/1800/2400/3200 settings. This combination of Windows XP/Vista/Win7/8/10/11 system is supported."
+    },
+    {
+      "id": 2,
+      "name": "AULA S11 Pro",
+      "image": "https://www.startech.com.bd/image/cache/catalog/mouse/aula/s11-pro/s11-pro-blue-02-500x500.webp",
+      "category": "Others",
+      "price": "10",
+      "status": "out of stock",
+      "individualRating": "4",
+      "avgRating": "5",
+      "keyFeatures": [
+        {
+          "brand": "AULA",
+          "model": "S11 Pro",
+          "key number": "6 keys",
+          "type": "USB Wired",
+          "resolution": " 1200-1800-2400-3600DPI  "
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Halim Shah",
+          "review": "Dangerous Product",
+          "rating": "2"
+        }
+      ],
+      "description": "The AULA S11 Pro Wired Gaming Mouse is a high-performance gaming mouse designed for gamers who prioritize precision and functionality. With its wired connectivity, this mouse ensures a stable and reliable connection to your gaming device, allowing for uninterrupted gameplay. The AULA S11 Pro offers customization options to suit your gaming needs. These keys can be assigned with various functions and macros, providing quick access to in-game commands and shortcuts for enhanced gaming efficiency. The mouse boasts an adjustable DPI (dots per inch) sensitivity, ranging from 1200 to 1800 to 2400 to 3600 DPI. This allows you to fine-tune the cursor speed and responsiveness based on your preferences and the demands of different gaming situations. Whether you need swift movements for fast-paced shooters or precise control for strategy games, the AULA S11 Pro has you covered. The backlighting not only enhances the aesthetics of your gaming setup but also improves visibility in low-light environments, ensuring you never lose track of your mouse during intense gaming sessions. With a cable length of 1.5 meters, the AULA S11 Pro provides ample flexibility and freedom of movement. The lightweight design of the mouse, weighing in at just 81 grams, further enhances maneuverability and reduces fatigue, enabling prolonged gaming sessions without discomfort. The AULA S11 Pro is compatible with various operating systems, including Windows 2000, XP, 7, 8, 10, Vista, and Mac. This broad compatibility ensures that you can use the mouse with a wide range of gaming devices without any compatibility issues. The AULA S11 Pro is its plug-and-play functionality, meaning it can be used without the need for additional software installation. This simplicity allows for a quick and hassle-free setup, making it an ideal choice for gamers who prefer a straightforward and seamless gaming experience. The AULA S11 Pro Wired Gaming Mouse combines performance, customization, and aesthetics to deliver a reliable and efficient gaming tool. Whether you're a casual gamer or a competitive enthusiast, this mouse offers the features and functionality needed to enhance your gaming performance and enjoyment."
+    },
+    {
+      "id": 3,
+      "name": "Redragon H310",
+      "image": "https://www.startech.com.bd/image/cache/catalog/headphone/redragon/h310/redragon-h310-gaming-headset-01-500x500.webp",
+      "category": "Others",
+      "price": "34",
+      "status": "in stock",
+      "individualRating": "2",
+      "avgRating": "3",
+      "keyFeatures": [
+        {
+          "brand": "Redragon",
+          "model": "Redragon H310",
+          "frequency range": "20~20000 Hz",
+          "color": "Black"
+        }
+      ],
+      "reviews": [
+        {
+          "name": "Nasim Shah",
+          "review": "Cool Product",
+          "rating": "4"
+        }
+      ],
+      "description": "With 50mm dynamic stereo driver unit, 24bit HD digital decode and optimal 48K Hi-Fi audio system, Redragon H310 MUSES Wired Gaming Headset capable for you to hear and enjoy the copious audio experience anywhere anytime. You can set up virtual 7.1 surround-sound with Redragon professional software to quickly locate the position of the enemy near you on the battlefield. No matter how slightly they move, you will catch their traces every time behind the wall or under the water. Noise cancellation microphone on the left get you a clear voice quality with background noise reduction. The mic is easy to swivel down for awesome and smooth communication in the game or other chatting occasions, swivel up to turn it off and enjoy music. Ear-pads designed with all-over style make sure your ears don’t get squished, the memory foam filler keeps your ear away from dyspnea. The headband with the same material design plus a solid frame makes the headset lightweight and durable, which suits your head well and leaves no long-time wearing fatigue. USB wide connected to PC/MAC, also compatible with PS4/PS3. Braiding craft makes the cable more durable for years using, placing the device horizontally on the desktop will automatically turn itself off for a long lifespan using. This Redragon H310 MUSES Wired Gaming Headset comes with a 1-year warranty."
+    }
+  ],
+  "allProducts": [
     {
       "id": 1,
       "name": "Acer KA222Q  100Hz AMD FreeSync Full HD Monitor",
       "image": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/ka222q-h/ka222q-h-01-500x500.webp",
-      "category": "monitor",
+      "category": "Monitor",
       "price": "45",
       "status": "in stock",
       "individualRating": "4",
@@ -29,7 +691,7 @@
       "id": 2,
       "name": "Gigabyte GA-H81M-DS2 Micro ATX Motherboard",
       "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-h81m-ds2/ga-h81m-ds2-1-228x228.jpg",
-      "category": "motherboard",
+      "category": "Motherboard",
       "price": "90",
       "status": "out of stock",
       "individualRating": "5",
@@ -38,7 +700,7 @@
       "keyFeatures": [
         {
           "model": "GA-H81M-DS2",
-          "cpu": "4th Generation Intel Processors ",
+          "CPU": "4th Generation Intel Processors ",
           "chipset": "Intel H81 Express",
           "mpn": "UM.WX2SI.H02"
         }
@@ -56,7 +718,7 @@
       "id": 3,
       "name": "AMD Ryzen 5 2600X Processor",
       "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/r5-2600/r5-500x500.jpg",
-      "category": "cpu",
+      "category": "CPU",
       "price": "80",
       "status": "in stock",
       "individualRating": "5",
@@ -93,7 +755,7 @@
       "id": 4,
       "name": "TwinMOS 4GB DDR4 2400MHz Desktop RAM",
       "image": "https://www.startech.com.bd/image/cache/catalog/RAM/TwinMOS/TwinMOS%204GB%20DDR4%202400-228x228.jpg",
-      "category": "ram",
+      "category": "RAM",
       "price": "20",
       "status": "out of stock",
       "individualRating": "4",
@@ -125,7 +787,7 @@
       "id": 5,
       "name": "Revenger VP 350 Watt Power Supply",
       "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-228x228.webp",
-      "category": "Power supply",
+      "category": "Power-Supply",
       "price": "10",
       "status": "in stock",
       "individualRating": "5",
@@ -158,7 +820,7 @@
       "id": 6,
       "name": "Toshiba S300 1TB 5700rpm Surveillance Hard Drive",
       "image": "https://www.startech.com.bd/image/cache/catalog/hdd/toshiba/s300/s300-1tb-01-228x228.jpg",
-      "category": "Storage device",
+      "category": "Storage-Device",
       "price": "40",
       "status": "out of stock",
       "individualRating": "3",
@@ -191,7 +853,7 @@
       "id": 7,
       "name": "Lenovo D19-10 18.5 Inch HD HDMI VGA Monitor",
       "image": "https://www.startech.com.bd/image/cache/catalog/monitor/lenovo/d19-10/d19-10-01-500x500.jpg",
-      "category": "monitor",
+      "category": "Monitor",
       "price": "75",
       "status": "in stock",
       "individualRating": "5",
@@ -225,7 +887,7 @@
       "id": 8,
       "name": "PHILIPS 18.5 inch 193V5LSB2 LED MONITOR",
       "image": "https://www.startech.com.bd/image/cache/catalog/monitor/philips/193v/193v-500x500.png",
-      "category": "monitor",
+      "category": "Monitor",
       "price": "85",
       "status": "out of stock",
       "individualRating": "5",
@@ -253,7 +915,7 @@
       "id": 9,
       "name": "MSI B450M-A PRO MAX II AMD AM4 Motherboard",
       "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/b450m-a-pro-max-ii/b450m-a-pro-max-ii-01-500x500.webp",
-      "category": "motherboard",
+      "category": "Motherboard",
       "price": "89",
       "status": "in stock",
       "individualRating": "4",
@@ -262,7 +924,7 @@
       "keyFeatures": [
         {
           "model": "B450M-A PRO MAX II",
-          "cpu": "Ryzen 3rd Gen and 4th Gen processors ",
+          "CPU": "Ryzen 3rd Gen and 4th Gen processors ",
           "supportedRam": "2x DDR4, up to 4133 (OC) MHz",
           "features": "1 x M.2 Slot, Realtek 8125 2.5Gbps LAN"
         }
@@ -284,7 +946,7 @@
       "id": 10,
       "name": "Gigabyte B450M S2H AMD AM4 Micro ATX Motherboard",
       "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/b450m-s2h-ultra/b450m-s2h-ultra-1-500x500.jpg",
-      "category": "motherboard",
+      "category": "Motherboard",
       "price": "105",
       "status": "in stock",
       "individualRating": "5",
@@ -315,7 +977,7 @@
       "id": 11,
       "name": "Intel Core i3-12100F 12th Gen Alder Lake Processor",
       "image": "https://www.startech.com.bd/image/cache/catalog/processor/intel/i3-12100f/i3-12100f-500x500.jpg",
-      "category": "cpu",
+      "category": "CPU",
       "price": "120",
       "status": "in stock",
       "individualRating": "4",
@@ -346,7 +1008,7 @@
       "id": 12,
       "name": "AMD Ryzen 3 4100 Processor",
       "image": "https://www.startech.com.bd/image/cache/catalog/processor/AMD/ryzen-3-4100/amd-ryzen-3-4100-01-500x500.jpg",
-      "category": "cpu",
+      "category": "CPU",
       "price": "103",
       "status": "out of stock",
       "individualRating": "4",
@@ -378,8 +1040,8 @@
       "id": 13,
       "name": "Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM",
       "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-ddr5/vengeance-01-500x500.webp",
-      "category": "ram",
-      "price": "130",
+      "category": "RAM",
+      "price": "13",
       "status": "in stock",
       "individualRating": "4",
       "avgRating": "5",
@@ -408,14 +1070,14 @@
     },
     {
       "id": 14,
-      "name": "Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM",
-      "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-ddr5/vengeance-01-500x500.webp",
-      "category": "ram",
-      "price": "130",
+      "name": "Transcend JetRam 4GB DDR4",
+      "image": "https://www.startech.com.bd/image/cache/catalog/ram/transcend/jetram-4gb/jetram-4gb-01-500x500.webp",
+      "category": "RAM",
+      "price": "14",
       "status": "in stock",
       "individualRating": "4",
       "avgRating": "5",
-      "description": "The Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM is a high-performance memory module that allows you to push the limits of your system like never before. With DDR5 technology, it offers faster frequencies, greater capacities, and improved overall performance compared to previous generations of RAM. The DDR5 memory ensures that your high-end CPU can access data quickly and efficiently, enhancing your system's overall responsiveness. Whether you're a gamer, content creator, or multi-tasker who constantly has numerous applications and browser tabs open, this RAM allows your PC to power through complex tasks faster than ever before. The Corsair VENGEANCE DDR5 RAM is its built-in voltage regulation and iCUE software control. This combination enables easier and more precise output tuning, resulting in more stable overclocking. You have the power and control to fine-tune your system's performance according to your needs and preferences. This RAM module supports Custom Intel XMP 3.0 profiles. This feature eliminates the need for manually adjusting performance settings every time you want to optimize your system. By saving your own XMP profiles through the iCUE software, you can easily customize and tailor your settings by application or task, maximizing efficiency and ensuring optimal performance for different use cases. The Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM is designed to deliver exceptional performance and speed, allowing you to unleash the full potential of your system. With its DDR5 technology, built-in voltage regulation, and support for custom XMP profiles, this RAM module provides a seamless and efficient experience for gamers, content creators, and multi-taskers alike.",
+      "description": "The Transcend JetRam 4GB DDR4 3200MHz Desktop RAM is made with genuine ETT grade, brand-name DRAM chips that have passed Transcend's stringent screening and testing procedures. The modules offer outstanding compatibility and fully-tested dependability, making them perfect for PC upgrades at a low cost. Each memory module is rated at 3200MHz, which dramatically increases data transfer efficiency by providing up to 25.6GB/s of bandwidth. Transcend's DDR4 U-DIMM JetRam memory, which operates at a nominal voltage of just 1.2V, means that both operating temperature and electrical load on the memory controller may be lowered, saving up to 40% of energy when compared to typical DDR3 modules that deliver 1.5V. In Bangladesh, you can get the original Transcend JetRam 4GB DDR4 3200MHz U-DIMM Desktop RAM From Star Tech. We have a large collection of the latest Transcend RAM to purchase for your Device. Order Online Or Visit your Nearest Star Tech Shop to get yours at the lowest price. The Transcend JetRam 4GB DDR4 3200MHz Desktop RAM comes with a lifetime warranty.",
       "keyFeatures": [
         {
           "brand": "Corsair",
@@ -442,7 +1104,7 @@
       "id": 15,
       "name": "Revenger VP 350 Watt Power Supply",
       "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-228x228.webp",
-      "category": "Power supply",
+      "category": "Power-Supply",
       "price": "10",
       "status": "in stock",
       "individualRating": "5",
@@ -470,7 +1132,7 @@
       "id": 16,
       "name": "MaxGreen MG-P500W ATX Power Supply",
       "image": "https://www.startech.com.bd/image/cache/catalog/Component/power%20supply/maxgreen/mxgrn-500x500.JPG",
-      "category": "Power supply",
+      "category": "Power-Supply",
       "price": "20",
       "status": "out of stock",
       "individualRating": "4",
@@ -480,7 +1142,7 @@
         {
           "brand": "MaxGreen",
           "model": "MaxGreen MG-P500W",
-          "power supply": "500w",
+          "power-Supply": "500w",
           "frequency": "50Hz/60Hz",
           "input voltage": "110v/230v"
         }
@@ -504,7 +1166,7 @@
       "id": 17,
       "name": "Western Digital 1TB Blue Desktop HDD",
       "image": "https://www.startech.com.bd/image/cache/catalog/HDD/Western%20Digital/WD%20INT%20Blue%201TB-500x500.jpg",
-      "category": "Storage device",
+      "category": "Storage-Device",
       "price": "44",
       "status": "in stock",
       "individualRating": "4",
@@ -536,7 +1198,7 @@
       "id": 18,
       "name": "Seagate Barracuda 2TB 7200RPM",
       "image": "https://www.startech.com.bd/image/cache/catalog/hdd/seagate/2tb-7200rpm/2tb-7200rpm-1-500x500.jpg",
-      "category": "Storage device",
+      "category": "Storage-Device",
       "price": "72",
       "status": "out of stock",
       "individualRating": "4",
@@ -655,7 +1317,7 @@
       "id": 1,
       "name": "Acer KA222Q  100Hz AMD FreeSync Full HD Monitor",
       "image": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/ka222q-h/ka222q-h-01-500x500.webp",
-      "category": "monitor",
+      "category": "Monitor",
       "price": "45",
       "status": "in stock",
       "individualRating": "4",
@@ -680,7 +1342,7 @@
       "id": 2,
       "name": "Gigabyte GA-H81M-DS2 Micro ATX Motherboard",
       "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-h81m-ds2/ga-h81m-ds2-1-228x228.jpg",
-      "category": "motherboard",
+      "category": "Motherboard",
       "price": "90",
       "status": "out of stock",
       "individualRating": "3",
@@ -689,7 +1351,7 @@
       "keyFeatures": [
         {
           "model": "GA-H81M-DS2",
-          "cpu": "4th Generation Intel Processors ",
+          "CPU": "4th Generation Intel Processors ",
           "chipset": "Intel H81 Express",
           "mpn": "UM.WX2SI.H02"
         }
@@ -707,7 +1369,7 @@
       "id": 3,
       "name": "AMD Ryzen 5 2600X Processor",
       "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/r5-2600/r5-500x500.jpg",
-      "category": "cpu",
+      "category": "CPU",
       "price": "80",
       "status": "in stock",
       "individualRating": "5",
@@ -744,7 +1406,7 @@
       "id": 4,
       "name": "TwinMOS 4GB DDR4 2400MHz Desktop RAM",
       "image": "https://www.startech.com.bd/image/cache/catalog/RAM/TwinMOS/TwinMOS%204GB%20DDR4%202400-228x228.jpg",
-      "category": "ram",
+      "category": "RAM",
       "price": "20",
       "status": "out of stock",
       "individualRating": "4",
@@ -776,7 +1438,7 @@
       "id": 5,
       "name": "Revenger VP 350 Watt Power Supply",
       "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-228x228.webp",
-      "category": "Power supply",
+      "category": "Power-Supply",
       "price": "10",
       "status": "in stock",
       "individualRating": "1",
@@ -804,7 +1466,7 @@
       "id": 6,
       "name": "Toshiba S300 1TB 5700rpm Surveillance ",
       "image": "https://www.startech.com.bd/image/cache/catalog/hdd/toshiba/s300/s300-1tb-01-228x228.jpg",
-      "category": "Storage device",
+      "category": "Storage-Device",
       "price": "40",
       "status": "out of stock",
       "individualRating": "5",
@@ -836,35 +1498,701 @@
   ],
   "categories": [
     {
-      "id": "1",
+      "id": 1,
       "name": "CPU",
-      "image": "https://i.ibb.co/Q94nw7w/cpu-tower.png"
+      "image": "https://i.ibb.co/Q94nw7w/cpu-tower.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "AMD Ryzen 3 4100 Processor",
+          "image": "https://www.startech.com.bd/image/cache/catalog/processor/AMD/ryzen-3-4100/amd-ryzen-3-4100-01-500x500.jpg",
+          "category": "CPU",
+          "price": "103",
+          "status": "out of stock",
+          "individualRating": "4",
+          "avgRating": "5",
+          "description": "The latest Intel 12th Gen Core i3-12100F Processor comes with 4 cores and 8 threads. It has a base frequency of 3.30 GHz and a maximum boost frequency of up to 4.30 GHz. The i3-12100F Alder Lake Processor comes with a 12 MB Intel Smart Cache and it has a 5 MB L2 cache. It features a Processor Base Power of 58W and a maximum turbo power of 89W. The Intel Core i3-12100F comes with 2 memory channels and it supports 128GB of maximum memory. The maximum bandwidth is 76.8 GB/s.",
+          "keyFeatures": [
+            {
+              "brand": "AMD",
+              "model": "Ryzen 3 4100",
+              "clock speed": "3.8GHz to 4.0GHz",
+              "socket": "AM4"
+            }
+          ],
+
+          "reviews": [
+            {
+              "name": "Aksan Ali",
+              "review": "Best Product",
+              "rating": "5"
+            },
+            {
+              "name": "Nazmul Hossain ",
+              "review": "Working perfectly",
+              "rating": "4"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Intel Core i3-12100F 12th Gen Alder Lake Processor",
+          "image": "https://www.startech.com.bd/image/cache/catalog/processor/intel/i3-12100f/i3-12100f-500x500.jpg",
+          "category": "CPU",
+          "price": "120",
+          "status": "in stock",
+          "individualRating": "4",
+          "avgRating": "5",
+          "description": "The latest Intel 12th Gen Core i3-12100F Processor comes with 4 cores and 8 threads. It has a base frequency of 3.30 GHz and a maximum boost frequency of up to 4.30 GHz. The i3-12100F Alder Lake Processor comes with a 12 MB Intel Smart Cache and it has a 5 MB L2 cache. It features a Processor Base Power of 58W and a maximum turbo power of 89W. The Intel Core i3-12100F comes with 2 memory channels and it supports 128GB of maximum memory. The maximum bandwidth is 76.8 GB/s.",
+          "keyFeatures": [
+            {
+              "brand": "INTEL",
+              "model": "Core i3-12100F 12th Gen",
+              "clock speed": "3.30 GHz Up to 4.30 GHz ",
+              "basic frequency": "3.30GHz"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Akash Islam",
+              "review": "Just fabulous",
+              "rating": "5"
+            },
+            {
+              "name": "Polash Mia ",
+              "review": "Amazing.",
+              "rating": "4"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "AMD Ryzen 5 2600X Processor",
+          "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/r5-2600/r5-500x500.jpg",
+          "category": "CPU",
+          "price": "80",
+          "status": "in stock",
+          "individualRating": "5",
+          "avgRating": "5",
+          "description": "That isn't the only change from Zen 2 to Zen 3, however. Since it is a gaming-focused CPU, the move to a single eight-core core complex (CCX) design in Zen 3 gives the 5600X a leg up over the Ryzen 5 3600X. In the Ryzen 5 3600X, the processor was split between two four-core CCXs, made up of two dual-core core chiplet dies (CCDs) each, with one CCX disabled in the second CCD  Having the cores spread across two CCDs meant that there was increased travel time for any tasks that utilized all six cores at once, which, for example, games like GTA V and titles in the Civilization series are both known for. By that same note, lightly threaded titles like Counter-Strike: Global Offensive and Rainbow Six: Siege both suffered slightly on the Ryzen 5 3600X and on the follow-up refresh in the Zen 2 stack, due to increased latency. No more, though. Now that all the cores of the Ryzen 5 5600X have been centralized into a single CCX design, AMD's engineers have reduced the travel time between cores and decreased the latency at the same time.",
+          "keyFeatures": [
+            {
+              "brand": "AMD",
+              "model": "Ryzen 5 2600X ",
+              "type": "DDR4",
+              "maximum speed": "2933MHz",
+              "basic frequency": "3.6GHz"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Azmol Ali",
+              "review": "Happy with the product",
+              "rating": "4"
+            },
+            {
+              "name": "Stuard Broad",
+              "review": "Money not go in vain",
+              "rating": "4"
+            },
+            {
+              "name": "Robin Utthapa",
+              "review": "As usual, not so cool.",
+              "rating": "3"
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Motherboard",
-      "image": "https://i.ibb.co/SyvQ9LW/motherboard.png"
+      "image": "https://i.ibb.co/SyvQ9LW/motherboard.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "Gigabyte B450M S2H AMD AM4 Micro ATX Motherboard",
+          "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/b450m-s2h-ultra/b450m-s2h-ultra-1-500x500.jpg",
+          "category": "Motherboard",
+          "price": "105",
+          "status": "in stock",
+          "individualRating": "5",
+          "avgRating": "4",
+          "description": "Gigabyte B450M S2H UAMD AM4 Motherboard introduce the latest Ryzen 2000 series processors to provide the computing power for gaming need. GIGABYTE's 400 series motherboards perfectly fit the latest AMD Ryzen 2000 series processors' computing performance with more features and more control. Users can enjoy the benefits brought by AMD Ryzen 2000 series processors which maximize your PC's potential with AMD StoreMI technology. By adding this AMD StoreMI, It making the PC experience fast, smooth and easy, optimizing computer responsiveness from system boot to application launch, offering SSD performance with HDD capacity at an affordable cost and also quickly accessing key files by automatically learning users' computing behaviors.",
+          "keyFeatures": [
+            {
+              "model": "Gigabyte B450M S2H ULTRA Durable",
+              "supportedRam": "2x DDR4, up to 4133 (OC) MHz",
+              "features": "1 x M.2 Slot, Realtek 8125 2.5Gbps LAN",
+              "chipset": "AMD B450"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Orne Abir Orin",
+              "review": "Wasted Product",
+              "rating": "1"
+            },
+            {
+              "name": "Marufa Begum ",
+              "review": "I hate it.",
+              "rating": "2"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "MSI B450M-A PRO MAX II AMD AM4 Motherboard",
+          "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/b450m-a-pro-max-ii/b450m-a-pro-max-ii-01-500x500.webp",
+          "category": "Motherboard",
+          "price": "89",
+          "status": "in stock",
+          "individualRating": "4",
+          "avgRating": "4",
+          "description": "The MSI B450M-A PRO MAX II AMD AM4 Motherboard is designed to support a wide range of processors, from AMD Ryzen 5000 Series to Athlon with Radeon Vega Graphics desktop processors, it ensures versatility. With support for DDR4 Memory up to 4133 (OC) MHz, it delivers rapid and efficient performance. The Turbo M.2 feature, running at PCI-E Gen3 x4, maximizes the performance of NVMe based SSDs. Experience studio-grade sound quality with Audio Boost, while the 2.5G LAN provides an upgraded network solution for professional and multimedia use. X-Boost software detects and enhances the performance of storage and USB devices, adding convenience. With Core Boost, the motherboard features a premium layout and fully digital power design, ensuring support for more cores and improved performance. The MSI B450M-A PRO MAX II AMD AM4 Motherboard combines aesthetics, power, and functionality for a dynamic computing experience.",
+          "keyFeatures": [
+            {
+              "model": "B450M-A PRO MAX II",
+              "CPU": "Ryzen 3rd Gen and 4th Gen processors ",
+              "supportedRam": "2x DDR4, up to 4133 (OC) MHz",
+              "features": "1 x M.2 Slot, Realtek 8125 2.5Gbps LAN"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Lotif Sikdar",
+              "review": "Hate the Product",
+              "rating": "1"
+            },
+            {
+              "name": "Porimoni ",
+              "review": "It was not useful.",
+              "rating": "3"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Gigabyte GA-H81M-DS2 Micro ATX Motherboard",
+          "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-h81m-ds2/ga-h81m-ds2-1-228x228.jpg",
+          "category": "Motherboard",
+          "price": "90",
+          "status": "out of stock",
+          "individualRating": "5",
+          "avgRating": "4",
+          "description": "Gigabyte GA-H81M-DS2 Micro ATX ultra durable motherboard has the compatibility with 4th gen Intel processors. This board also supports dual channel DDR3 maximum 16GB memory and dual Ultra-Fast SATA interface. Focusing on the graphics, it has integrated Intel HD graphics with 1GB shared graphics memory containing the resolution of 1920x1200 Hz for D-Sub port. This basic motherboard has the facility of GIGABYTE On/Off Chargeâ„¢ for USB devices, LAN with high ESD Protection and USB 3.0 ports with GIGABYTE 3x USB power. This All solid capacitors design board also contain GIGABYTE UEFI DualBIOSâ„¢ Technology and LPT, COM, D-SUB port on rear panel  Purchase high quality basic Gigabyte boards within your range, available at best price at Star Tech. We provide the best service for every customer. Online shopping have made our life very easy to buy our desired item to build your dream PC",
+          "keyFeatures": [
+            {
+              "model": "GA-H81M-DS2",
+              "CPU": "4th Generation Intel Processors ",
+              "chipset": "Intel H81 Express",
+              "mpn": "UM.WX2SI.H02"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Motin Mia",
+              "review": "Satisfied with the product",
+              "rating": "5"
+            },
+            { "name": "Robin Ghosh", "review": "Enjoyed it", "rating": "4" }
+          ]
+        }
+      ]
     },
-    { "id": "3", "name": "RAM", "image": "https://i.ibb.co/LvprX6M/ram.png" },
     {
-      "id": "4",
-      "name": "Power Supply Unit",
-      "image": "https://i.ibb.co/6B1rdKP/charge.png"
+      "id": 3,
+      "name": "RAM",
+      "image": "https://i.ibb.co/LvprX6M/ram.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "TwinMOS 4GB DDR4 2400MHz Desktop RAM",
+          "image": "https://www.startech.com.bd/image/cache/catalog/RAM/TwinMOS/TwinMOS%204GB%20DDR4%202400-228x228.jpg",
+          "category": "RAM",
+          "price": "20",
+          "status": "out of stock",
+          "individualRating": "4",
+          "avgRating": "4",
+          "description": "The TwinMOS 4GB DDR4 2400MHz Desktop RAM is a high-performance memory module designed to enhance the overall speed and efficiency of your desktop computer. With its advanced DDR4 technology, this RAM module offers improved data transfer rates and lower power consumption compared to its predecessor, DDR3, Featuring a capacity of 4GB, this RAM module provides ample space for multitasking, allowing you to run multiple applications smoothly and efficiently. The 2400MHz clock speed ensures quick data access and seamless performance, making it suitable for various computing tasks, from everyday web browsing and office work to light gaming and multimedia consumption       The TwinMOS DDR4 RAM module is engineered for compatibility with a wide range of desktop systems, ensuring easy integration without the need for complicated configurations. Its plug-and-play design simplifies the installation process, making it accessible even for users with limited technical expertise .  The module's sleek design and durable construction contribute to its reliability, ensuring stable and consistent performance over extended periods. Whether you're upgrading your existing system or building a new one, the TwinMOS 4GB DDR4 2400MHz Desktop RAM offers a cost-effective solution to enhance your computer's overall speed and responsiveness",
+          "keyFeatures": [
+            {
+              "brand": "TwinMOS",
+              "model": "TwinMOS 4GB DDR4 2400MHz",
+              "frequency": "2400MHz",
+              "operating voltage": "1.5v",
+              "pin": "240pin"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Arif Dewan",
+              "review": "Good Product",
+              "rating": "5"
+            },
+            {
+              "name": "Risan Sheikh",
+              "review": "Not bad",
+              "rating": "3"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM",
+          "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-ddr5/vengeance-01-500x500.webp",
+          "category": "RAM",
+          "price": "13",
+          "status": "in stock",
+          "individualRating": "4",
+          "avgRating": "5",
+          "description": "The Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM is a high-performance memory module that allows you to push the limits of your system like never before. With DDR5 technology, it offers faster frequencies, greater capacities, and improved overall performance compared to previous generations of RAM. The DDR5 memory ensures that your high-end CPU can access data quickly and efficiently, enhancing your system's overall responsiveness. Whether you're a gamer, content creator, or multi-tasker who constantly has numerous applications and browser tabs open, this RAM allows your PC to power through complex tasks faster than ever before. The Corsair VENGEANCE DDR5 RAM is its built-in voltage regulation and iCUE software control. This combination enables easier and more precise output tuning, resulting in more stable overclocking. You have the power and control to fine-tune your system's performance according to your needs and preferences. This RAM module supports Custom Intel XMP 3.0 profiles. This feature eliminates the need for manually adjusting performance settings every time you want to optimize your system. By saving your own XMP profiles through the iCUE software, you can easily customize and tailor your settings by application or task, maximizing efficiency and ensuring optimal performance for different use cases. The Corsair VENGEANCE 32GB DDR5 5200MHz C40 RAM is designed to deliver exceptional performance and speed, allowing you to unleash the full potential of your system. With its DDR5 technology, built-in voltage regulation, and support for custom XMP profiles, this RAM module provides a seamless and efficient experience for gamers, content creators, and multi-taskers alike.",
+          "keyFeatures": [
+            {
+              "brand": "Corsair",
+              "model": "VENGEANCE DDR5",
+              "frequency": "DDR5 5200MHz",
+              "operating voltage": "1.25v",
+              "mpn": "CMK32GX5M1B5200C40"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Prodip Ghosh",
+              "review": "Joss Product",
+              "rating": "5"
+            },
+            {
+              "name": "Popon Mia ",
+              "review": "Loved it.",
+              "rating": "3"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Transcend JetRam 4GB DDR4",
+          "image": "https://www.startech.com.bd/image/cache/catalog/ram/transcend/jetram-4gb/jetram-4gb-01-500x500.webp",
+          "category": "RAM",
+          "price": "14",
+          "status": "in stock",
+          "individualRating": "4",
+          "avgRating": "5",
+          "description": "The Transcend JetRam 4GB DDR4 3200MHz Desktop RAM is made with genuine ETT grade, brand-name DRAM chips that have passed Transcend's stringent screening and testing procedures. The modules offer outstanding compatibility and fully-tested dependability, making them perfect for PC upgrades at a low cost. Each memory module is rated at 3200MHz, which dramatically increases data transfer efficiency by providing up to 25.6GB/s of bandwidth. Transcend's DDR4 U-DIMM JetRam memory, which operates at a nominal voltage of just 1.2V, means that both operating temperature and electrical load on the memory controller may be lowered, saving up to 40% of energy when compared to typical DDR3 modules that deliver 1.5V. In Bangladesh, you can get the original Transcend JetRam 4GB DDR4 3200MHz U-DIMM Desktop RAM From Star Tech. We have a large collection of the latest Transcend RAM to purchase for your Device. Order Online Or Visit your Nearest Star Tech Shop to get yours at the lowest price. The Transcend JetRam 4GB DDR4 3200MHz Desktop RAM comes with a lifetime warranty.",
+          "keyFeatures": [
+            {
+              "brand": "Corsair",
+              "model": "VENGEANCE DDR5",
+              "frequency": "DDR5 5200MHz",
+              "operating voltage": "1.25v",
+              "mpn": "CMK32GX5M1B5200C40"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Asif Uddin",
+              "review": "Average",
+              "rating": "3"
+            },
+            {
+              "name": "Shakil ",
+              "review": "Not bad.",
+              "rating": "3"
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": "5",
-      "name": "Storage Device",
-      "image": "https://i.ibb.co/9w6RR8q/ssd-disk.png"
+      "id": 4,
+      "name": "Power-Supply",
+      "image": "https://i.ibb.co/6B1rdKP/charge.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "Revenger VP 350 Watt Power Supply",
+          "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-228x228.webp",
+          "category": "Power-Supply",
+          "price": "10",
+          "status": "in stock",
+          "individualRating": "1",
+          "avgRating": "3",
+          "description": "The Revenger VP 350 Watt Power Supply is a high-quality power supply unit designed to power your computer components in a dependable and efficient manner. It can provide constant and stable power to your system with a continuous power output of 350 watts. The power supply has a 120 mm fan to assist disperse heat and keep the operating temperature low. This power supply is designed to work with a wide range of input voltages, ranging from 100VAC to 240VAC, and a frequency range of 47-63Hz. It has an AC input of 230VAC with a current of 4A and a frequency range of 47-63Hz. This makes it compatible with most power outlets in different regions. The Revenger VP 350 Watt power supply features a DC output of +3.3V, +5V, +12V, -12V, and +5Vsb, which ensures stable and reliable power delivery to all your components. It also has a total power output of 350 watts, which means it can power most mid-range systems with ease. This Revenger VP 350 Watt Power Supply is a reliable and efficient power supply unit that can provide stable power to your computer components. With its wide range of compatibility and reliable performance, it is an excellent choice for anyone looking to upgrade their power supply unit.",
+          "keyFeatures": [
+            {
+              "brand": "Revenger",
+              "model": "VP 350",
+              "fan": "120mm",
+              "continuous power": "350W",
+              "pin": "240pin",
+              "voltage": "100VAC – 240VAC"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Shakib Khan",
+              "review": "Beautiful Product",
+              "rating": "4"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "MaxGreen MG-P500W ATX Power Supply",
+          "image": "https://www.startech.com.bd/image/cache/catalog/Component/power%20supply/maxgreen/mxgrn-500x500.JPG",
+          "category": "Power-Supply",
+          "price": "20",
+          "status": "out of stock",
+          "individualRating": "4",
+          "avgRating": "5",
+          "description": "The MaxGreen MG-P500W ATX Power Supply has an input voltage of 110v/230v, a frequency of 50Hz/60Hz, and a current of 10A/5A. This Power Supply comes with a 03-month warranty.The latest price of MaxGreen MG-P500W ATX Power Supply in Bangladesh is 1,000৳. You can buy the MaxGreen MG-P500W ATX Power Supply at best price from our website or visit any of our showrooms.",
+          "keyFeatures": [
+            {
+              "brand": "MaxGreen",
+              "model": "MaxGreen MG-P500W",
+              "power-Supply": "500w",
+              "frequency": "50Hz/60Hz",
+              "input voltage": "110v/230v"
+            }
+          ],
+
+          "reviews": [
+            {
+              "name": "Mojnu Shah",
+              "review": "Fine Product",
+              "rating": "4"
+            },
+            {
+              "name": "Alif Miah ",
+              "review": "I Loved it.",
+              "rating": "4"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Antec META V350 350W Power Supply",
+          "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/antec/meta-v350/meta-v350-01-500x500.webp",
+          "category": "Power-Supply",
+          "price": "15",
+          "status": "out of stock",
+          "individualRating": "4",
+          "avgRating": "5",
+          "description": "The Antec META V350 is a 350-watt power supply unit that comes with a 24-pin connector (520mm in length), an 8-pin connector for EPS12V (4+4-pin) (550mm in length), an 8-pin connector for PCI-E (6+2-pin) (550mm in length), two 6-pin connectors for SATA (400mm in length each), and two 6-pin connectors for SATA (400mm in length each). The PSU comes with a Thermal Manager and a 120mm silent fan. It is an advanced low-voltage fan control for optimal heat & noise management and will allow your PSU to stay at an optimal temperature. The 120 mm Silent Fan is ideal for quiet computing and is designed for longer life, guaranteeing hours of operation. It has an AC input voltage of 230VAC, with a frequency range of 47-63Hz and an input current of 5A. The DC output consists of +3.3V, +5V, +12V, -12V, and +5Vsb with maximum current ratings of 18A, 16A, 42A, 0.3A, and 2.5A respectively. The total combined power of the output is 110W, 300W, 3.6W, and 12.5W. The total wattage of the power supply is 350W.",
+          "keyFeatures": [
+            {
+              "brand": "Antec",
+              "model": "Antec META V350 350W",
+              "power-Supply": "500w",
+              "frequency": "50Hz/60Hz",
+              "input voltage": "110v/230v"
+            }
+          ],
+
+          "reviews": [
+            {
+              "name": "Mojnu Shah",
+              "review": "Fine Product",
+              "rating": "4"
+            },
+            {
+              "name": "Alif Miah ",
+              "review": "I Loved it.",
+              "rating": "4"
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": "6",
+      "id": 5,
+      "name": "Storage-Device",
+      "image": "https://i.ibb.co/9w6RR8q/ssd-disk.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "Western Digital 1TB Blue Desktop HDD",
+          "image": "https://www.startech.com.bd/image/cache/catalog/HDD/Western%20Digital/WD%20INT%20Blue%201TB-500x500.jpg",
+          "category": "Storage-Device",
+          "price": "44",
+          "status": "in stock",
+          "individualRating": "4",
+          "avgRating": "5",
+          "keyFeatures": [
+            {
+              "brand": "WESTERN DIGITAL",
+              "model": "WD10EZEX",
+              "capacity": " 1000 GB ",
+              "interface": "SATA 6 Gb/s",
+              "rational speed": "RPM- 7200"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Mojnu Shah",
+              "review": "Fully satisfied with the Product",
+              "rating": "5"
+            },
+            {
+              "name": "Romiz Miah ",
+              "review": "I Loved it.",
+              "rating": "4"
+            }
+          ],
+          "description": "WD Blue Solid performance and reliability for everyday computing, WD Blue hard drives deliver solid performance and reliability for desktops PCs, external, enclosures and for certain industrial applications."
+        },
+        {
+          "id": 2,
+          "name": "Toshiba S300 1TB 5700rpm Surveillance ",
+          "image": "https://www.startech.com.bd/image/cache/catalog/hdd/toshiba/s300/s300-1tb-01-228x228.jpg",
+          "category": "Storage-Device",
+          "price": "40",
+          "status": "out of stock",
+          "individualRating": "5",
+          "avgRating": "4",
+          "keyFeatures": [
+            {
+              "brand": "Toshiba",
+              "model": "Toshiba S300",
+              "mpn": "HDWV110UZSVA",
+              "continuous power": "350W",
+              "interface": "6.0 Gbit/s ",
+              "form factor": "3,5-inch "
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Rakib Ahmed",
+              "review": "Useless Product",
+              "rating": "1"
+            },
+            {
+              "name": "Monir Mia",
+              "review": "Not working perfectly.",
+              "rating": "2"
+            }
+          ],
+          "description": "The Toshiba S300 1TB 5700rpm 3.5 inch Surveillance Hard Drive has been designed to satisfy your special needs and is constructed for 24/7 reliability and performance. The S300 has been designed and tested to support up to 64 excessive decision cameras, allowing bendy scalability for your protection camera structures. Compatible with DVR, NVR, video servers, and video control systems for around-the-clock security, the surveillance by no means sleeps â€“ so that you can. The Toshiba S300 1TB has a 128 MB buffer and excessive transfer charges meet the needs of surveillance facts from higher-decision digital camera streams. Improved real-time power performance is achieved via Toshiba's Dynamic Cache Technology optimizing examine and write cycle cache allocation thru an on-board cache algorithm and buffer control. Regular difficult disk drives without RV sensors can affect the performance of a multi-bay device with the aid of generating 'knock-on' vibration. The S300 guarantees high reliability with the aid of minimizing vibration effects via their advanced control and sensing technology. Multiple sensors detect the slightest surprise and built-in RV sensors also compensate for rotational vibration - removing the possibility of 'knock-on' vibration in multi-bay surveillance systems. The high-endurance, excessive-overall performance components of the S300 withstand harsh environments for advanced reliability. High-temperature environments trigger optimized are looking for velocity to support lower power consumption at the same time as automatically lowering noise and vibration emissions. Up to one million hour MTTF (Mean time to failure) and 180 TB per year workload rating offer peace of mind when working safety digicam structures. Toshiba is renowned internationally for fifty years of main innovation â€“ and the energy behind its variety of tough drives is not any exception. Designed for high capability and notable overall performance, you can be sure that Toshibaâ€™s wealth of experience in hard drives is at work for your garage system. This Toshiba S300 HDD comes with a 3-year warranty."
+        },
+        {
+          "id": 3,
+          "name": "Seagate Barracuda 2TB 7200RPM",
+          "image": "https://www.startech.com.bd/image/cache/catalog/hdd/seagate/2tb-7200rpm/2tb-7200rpm-1-500x500.jpg",
+          "category": "Storage-Device",
+          "price": "72",
+          "status": "out of stock",
+          "individualRating": "4",
+          "avgRating": "5",
+          "keyFeatures": [
+            {
+              "brand": "Seagate",
+              "model": "Seagate Barracuda",
+              "capacity": " 2000 GB ",
+              "interface": "SATA 6.0 Gb/s",
+              "rational speed": "7200 rpm"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Mojnu Shah",
+              "review": "Really Nice Product",
+              "rating": "4"
+            },
+            {
+              "name": "Gopal Singh ",
+              "review": "Loved it.",
+              "rating": "4"
+            }
+          ],
+          "description": "WD Blue Solid performance and reliability for everyday computing, WD Blue hard drives deliver solid performance and reliability for desktops PCs, external, enclosures and for certain industrial applications."
+        }
+      ]
+    },
+    {
+      "id": 6,
       "name": "Monitor",
-      "image": "https://i.ibb.co/NS8p63Z/monitor.png"
+      "image": "https://i.ibb.co/NS8p63Z/monitor.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "PHILIPS 18.5 inch 193V5LSB2 LED MONITOR",
+          "image": "https://www.startech.com.bd/image/cache/catalog/monitor/philips/193v/193v-500x500.png",
+          "category": "Monitor",
+          "price": "85",
+          "status": "out of stock",
+          "individualRating": "5",
+          "avgRating": "5",
+          "description": "Smart Contrast for rich black details Smart Contrast is a Philips technology that analyzes the contents you are displaying, automatically adjusting colors and controlling back-light intensity to dynamically enhance contrast for the best digital images and videos or when playing games where dark hues are displayed. When Economy mode is selected, contrast is adjusted and back-lighting fine-tuned for just-right display of everyday office applications and lower power consumption.",
+          "keyFeatures": [
+            {
+              "brand": "PHILIPS",
+              "model": "193V",
+              "resolution": "1366 x 768",
+              "ports": "VGA ",
+              "display": " TFT-LCD, 60Hz, 5ms",
+              "features": "VESA Mount"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Moyna Banu",
+              "review": "Hate the Product",
+              "rating": "2"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Lenovo D19-10 18.5 Inch HD HDMI VGA Monitor",
+          "image": "https://www.startech.com.bd/image/cache/catalog/monitor/lenovo/d19-10/d19-10-01-500x500.jpg",
+          "category": "Monitor",
+          "price": "75",
+          "status": "in stock",
+          "individualRating": "5",
+          "avgRating": "4",
+          "description": "The Lenovo D19-10 is a simple and affordable display solution. It has been designed to offer a hassle-free user experience. It has a TN panel display with a resolution of 1366x768 (WxH) HD. It gives a comfortable visual experience featuring TœV Low Blue Light. This monitor comes with HDMI and VGA input. It features a 60Hz refresh rate and a response time of only 5ms. It has a brightness level of 200 cd/m² and a contrast ratio of 600:1.  It supports a quick-release tilt stand and VESA mount. It has a tilt angle of -5° / 22°. It requires 100 - 240 VAC and 50-60Hz power. The Lenovo D19-10 18.5 inch WLED Monitor comes with 3 years of warranty.",
+          "keyFeatures": [
+            {
+              "brand": "Lenevo",
+              "model": "D19-10",
+              "resolution": "1366 x 768",
+              "ports": "VGA, HDMI ",
+              "display": "TN, 60Hz, 5ms",
+              "mpn": "61E0KAR6WW",
+              "features": "VESA Mount"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Asiq Hossain",
+              "review": "Got as described Product",
+              "rating": "3"
+            },
+            {
+              "name": "Lablu Singh",
+              "review": "Loved it.",
+              "rating": "4"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Acer KA222Q  100Hz AMD FreeSync Full HD Monitor",
+          "image": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/ka222q-h/ka222q-h-01-500x500.webp",
+          "category": "Monitor",
+          "price": "45",
+          "status": "in stock",
+          "individualRating": "4",
+          "avgRating": "4",
+          "description": "The Acer KA222Q H is a high-quality 21.5-inch monitor designed for a smooth and immersive visual experience. With its Full HD resolution of 1920 x 1080 pixels, it delivers crisp and detailed images, making it ideal for gaming, multimedia, and everyday computing tasks. The monitor features a VA (Vertical Alignment) display panel, which offers wide viewing angles and excellent color reproduction, ensuring that images appear vibrant and lifelike from various perspectives. The 100Hz refresh rate provides a smoother viewing experience, reducing motion blur and making fast-paced action scenes in movies or games more fluid. Thanks to its 1 ms response time, the Acer KA222Q H excels in reducing ghosting and motion artifacts, allowing for seamless transitions and sharper visuals, particularly in fast-moving scenes. This makes it a fantastic choice for gamers who require quick reactions and smooth gameplay. Connectivity options on the Acer KA222Q H include a VGA and an HDMI port, enabling you to connect various devices such as computers, laptops, gaming consoles, and media players. The VGA port allows for analog connections, while the HDMI port supports digital connections, providing flexibility and compatibility with different devices. Notable features of the Acer KA222Q H include AMD FreeSync technology, which synchronizes the monitor's refresh rate with the graphics card's output, eliminating screen tearing and stuttering, resulting in a seamless and tear-free gaming experience. The monitor also incorporates Low Blue Light technology, which reduces the amount of harmful blue light emitted by the screen, minimizing eye strain and fatigue during extended use. The ZeroFrame design of the Acer KA222Q H ensures a sleek and modern appearance, with ultra-thin bezels that maximize the screen real estate and facilitate multi-monitor setups for an immersive viewing experience. The Acer KA222Q H 21.5 inch monitor offers a Full HD resolution, a VA display with wide viewing angles, a 100Hz refresh rate, and a 1 ms response time. With its AMD FreeSync technology, Low Blue Light feature, and ZeroFrame design, it provides a smooth, comfortable, and visually stunning experience for both gaming and general multimedia usage.",
+          "keyFeatures": [
+            {
+              "model": "KA222Q H",
+              "resolution": "FHD (1920 x 1080) ",
+              "ports": "VGA, HDMI ",
+              "display": "VA, 100Hz, 1 ms ",
+              "mpn": "UM.WX2SI.H02",
+              "features": "Low Blue Light, ZeroFrame Design, Inbuilt Speakers"
+            }
+          ],
+          "reviews": [
+            { "name": "Miraz Khan", "review": "Nice Product", "rating": "4" },
+            { "name": "Tapos Pal", "review": "Loved it", "rating": "3" }
+          ]
+        }
+      ]
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Others",
-      "image": "https://i.ibb.co/W6fjLnC/keyboard-and-mouse.png"
+      "image": "https://i.ibb.co/W6fjLnC/keyboard-and-mouse.png",
+      "products": [
+        {
+          "id": 1,
+          "name": "iMICE KM-760 RGB",
+          "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/imice/km-760/km-760-01-500x500.webp",
+          "category": "Others",
+          "price": "13",
+          "status": "in stock",
+          "individualRating": "3",
+          "avgRating": "4",
+          "keyFeatures": [
+            {
+              "brand": "iMICE",
+              "model": "iMICE KM-760 RGB",
+              "key number": "104 keys",
+              "mouse key": "4 keys",
+              "resolution": " 1200/1800/2400/3200 DPI "
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Iqbal Hossain",
+              "review": "Awesome Product",
+              "rating": "4"
+            },
+            {
+              "name": "Musfiq ",
+              "review": "Loved it.",
+              "rating": "5"
+            }
+          ],
+          "description": "The iMICE KM-760 Keyboard Mouse Gaming Combo has a multicolor backlight. This iMICE KM-760 RGB gaming keyboard and mouse combo features plug-and-play technology that eliminates the need for a CD drive and makes it easy to install. It's so smooth, responsive, and functional ergonomic RGB mouse & keyboard. This iMICE KM-760 keyboard has a total of 104 keys. The receiver that plugging into any USB port, and you can roam up to 15m away with this RGB combo kit. It's a Multicolor Backlit keyboard. This set comes with a gaming mouse. This mouse has six buttons and a DPI of 1200/1800/2400/3200 settings. This combination of Windows XP/Vista/Win7/8/10/11 system is supported."
+        },
+        {
+          "id": 2,
+          "name": "AULA S11 Pro",
+          "image": "https://www.startech.com.bd/image/cache/catalog/mouse/aula/s11-pro/s11-pro-blue-02-500x500.webp",
+          "category": "Others",
+          "price": "10",
+          "status": "out of stock",
+          "individualRating": "4",
+          "avgRating": "5",
+          "keyFeatures": [
+            {
+              "brand": "AULA",
+              "model": "S11 Pro",
+              "key number": "6 keys",
+              "type": "USB Wired",
+              "resolution": " 1200-1800-2400-3600DPI  "
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Halim Shah",
+              "review": "Dangerous Product",
+              "rating": "2"
+            }
+          ],
+          "description": "The AULA S11 Pro Wired Gaming Mouse is a high-performance gaming mouse designed for gamers who prioritize precision and functionality. With its wired connectivity, this mouse ensures a stable and reliable connection to your gaming device, allowing for uninterrupted gameplay. The AULA S11 Pro offers customization options to suit your gaming needs. These keys can be assigned with various functions and macros, providing quick access to in-game commands and shortcuts for enhanced gaming efficiency. The mouse boasts an adjustable DPI (dots per inch) sensitivity, ranging from 1200 to 1800 to 2400 to 3600 DPI. This allows you to fine-tune the cursor speed and responsiveness based on your preferences and the demands of different gaming situations. Whether you need swift movements for fast-paced shooters or precise control for strategy games, the AULA S11 Pro has you covered. The backlighting not only enhances the aesthetics of your gaming setup but also improves visibility in low-light environments, ensuring you never lose track of your mouse during intense gaming sessions. With a cable length of 1.5 meters, the AULA S11 Pro provides ample flexibility and freedom of movement. The lightweight design of the mouse, weighing in at just 81 grams, further enhances maneuverability and reduces fatigue, enabling prolonged gaming sessions without discomfort. The AULA S11 Pro is compatible with various operating systems, including Windows 2000, XP, 7, 8, 10, Vista, and Mac. This broad compatibility ensures that you can use the mouse with a wide range of gaming devices without any compatibility issues. The AULA S11 Pro is its plug-and-play functionality, meaning it can be used without the need for additional software installation. This simplicity allows for a quick and hassle-free setup, making it an ideal choice for gamers who prefer a straightforward and seamless gaming experience. The AULA S11 Pro Wired Gaming Mouse combines performance, customization, and aesthetics to deliver a reliable and efficient gaming tool. Whether you're a casual gamer or a competitive enthusiast, this mouse offers the features and functionality needed to enhance your gaming performance and enjoyment."
+        },
+        {
+          "id": 3,
+          "name": "Redragon H310",
+          "image": "https://www.startech.com.bd/image/cache/catalog/headphone/redragon/h310/redragon-h310-gaming-headset-01-500x500.webp",
+          "category": "Others",
+          "price": "34",
+          "status": "in stock",
+          "individualRating": "2",
+          "avgRating": "3",
+          "keyFeatures": [
+            {
+              "brand": "Redragon",
+              "model": "Redragon H310",
+              "frequency range": "20~20000 Hz",
+              "color": "Black"
+            }
+          ],
+          "reviews": [
+            {
+              "name": "Nasim Shah",
+              "review": "Cool Product",
+              "rating": "4"
+            }
+          ],
+          "description": "With 50mm dynamic stereo driver unit, 24bit HD digital decode and optimal 48K Hi-Fi audio system, Redragon H310 MUSES Wired Gaming Headset capable for you to hear and enjoy the copious audio experience anywhere anytime. You can set up virtual 7.1 surround-sound with Redragon professional software to quickly locate the position of the enemy near you on the battlefield. No matter how slightly they move, you will catch their traces every time behind the wall or under the water. Noise cancellation microphone on the left get you a clear voice quality with background noise reduction. The mic is easy to swivel down for awesome and smooth communication in the game or other chatting occasions, swivel up to turn it off and enjoy music. Ear-pads designed with all-over style make sure your ears don’t get squished, the memory foam filler keeps your ear away from dyspnea. The headband with the same material design plus a solid frame makes the headset lightweight and durable, which suits your head well and leaves no long-time wearing fatigue. USB wide connected to PC/MAC, also compatible with PS4/PS3. Braiding craft makes the cable more durable for years using, placing the device horizontally on the desktop will automatically turn itself off for a long lifespan using. This Redragon H310 MUSES Wired Gaming Headset comes with a 1-year warranty."
+        }
+      ]
     }
   ]
 }

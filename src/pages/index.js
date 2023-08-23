@@ -8,25 +8,7 @@ export default function Home({ featuredProducts, categories }) {
   console.log("from categories", categories);
   return (
     <div className='h-[100vh]'>
-      {/* <ul>
-        {allProducts &&
-          allProducts.map((product, index) => (
-            <li key={index}>
-              {product.keyFeatures.map((item, itemIndex) => {
-                const keyValues = Object.entries(item);
-                return (
-                  <div key={itemIndex}>
-                    {keyValues.map(([key, value]) => (
-                      <div key={key}>
-                        {key}: {value}
-                      </div>
-                    ))}
-                  </div>
-                );
-              })}
-            </li>
-          ))}
-      </ul> */}
+
       {/* Featured Products */}
       <h1 className='text-center text-xl font-semibold my-5'>Featured Products</h1>
       <div className='flex flex-wrap gap-4 justify-center pb-5'>

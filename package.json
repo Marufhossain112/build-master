@@ -10,6 +10,7 @@
     "json-server": " json-server --watch product-data.json --port 5000"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
     "autoprefixer": "10.4.15",
     "daisyui": "^3.5.1",
     "eslint": "8.47.0",
@@ -19,6 +20,8 @@
     "postcss": "8.4.28",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-redux": "^8.1.2",
+    "redux-persist": "^6.0.0",
     "tailwindcss": "3.3.3"
   }
 }

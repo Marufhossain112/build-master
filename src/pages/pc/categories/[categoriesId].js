@@ -2,10 +2,19 @@ import React from 'react';
 import RootLayout from '@/Layouts/RootLayout';
 import Image from 'next/image';
 import StarRating from '@/components/StarRating';
-import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useDispatch } from 'react-redux';
+import { categoryId, categoryName, categoryProduct } from '@/redux/product/productReducer';
 export default function Categories({ categoryData, categoryBasedData }) {
+    const dispatch = useDispatch();
     console.log("I am single categoryBasedData", categoryBasedData);
     // console.log("categories", categoryData);
+    const router = useRouter();
+    const handleCategoryClick = (productId) => {
+        dispatch(categoryProduct(categoryBasedData));
+        dispatch(categoryId(productId));
+        router.push(`/pc/category-details/${productId}`); // Programmatically navigate
+    };
     return (
         // <> <div className='flex justify-center'>
         //     {/* info */}
@@ -89,7 +98,7 @@ export default function Categories({ categoryData, categoryBasedData }) {
             <div className='flex justify-center flex-wrap gap-4'>
                 {
                     categoryBasedData && categoryBasedData.map(category => (
-                        <Link href={`/pc/category-details/${category.id}`} key={category.id} className="card w-96 bg-base-100 shadow-xl">
+                        <div onClick={() => handleCategoryClick(category.id)} key={category.id} className="card w-96 bg-base-100 shadow-xl">
                             <figure><Image width={200} height={100} src={category.image} alt={category.name} /></figure>
                             <div className="card-body">
                                 <div className='flex justify-between'>
@@ -109,7 +118,7 @@ export default function Categories({ categoryData, categoryBasedData }) {
                                     <div className="badge badge-outline">{category.category}</div>
                                 </div>
                             </div>
-                        </Link>
+                        </div>
                     ))
                 }
             </div>

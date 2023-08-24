@@ -7,7 +7,7 @@ import { useDispatch } from 'react-redux';
 import { categoryId, categoryName, categoryProduct } from '@/redux/product/productReducer';
 export default function Categories({ categoryData, categoryBasedData }) {
     const dispatch = useDispatch();
-    console.log("I am single categoryBasedData", categoryBasedData);
+    // console.log("I am single categoryBasedData", categoryBasedData);
     // console.log("categories", categoryData);
     const router = useRouter();
     const handleCategoryClick = (productId) => {
@@ -144,7 +144,7 @@ export const getStaticProps = async (context) => {
     const res = await fetch(`http://localhost:5000/categories/${params.categoriesId}`);
     const data = await res.json();
     const res2 = await fetch(`http://localhost:5000/${data.name}`);
-    console.log("resData", data.name);
+    // console.log("resData", data.name);
     const categoryBasedData = await res2.json();
 
     return {

@@ -5,8 +5,8 @@ import StarRating from '@/components/StarRating';
 import { useRouter } from 'next/router';
 import { useSelector } from 'react-redux';
 export default function CategoryDetails({ categoryData }) {
-    const categoryProduct = useSelector(state => state.persistedReducer.categoryProduct);
-    const categoryId = useSelector(state => state.persistedReducer.categoryId);
+    const categoryProduct = useSelector(state => state.persistedProductReducer.categoryProduct);
+    const categoryId = useSelector(state => state.persistedProductReducer.categoryId);
     const finalProduct = categoryProduct?.find(product => product.id === categoryId);
     // console.log("finalProduct", finalProduct);
     const router = useRouter();
@@ -42,7 +42,7 @@ export default function CategoryDetails({ categoryData }) {
                                                     ))}
                                                 </ul>
                                             );
-                                            console.log("item girl", keyValues);
+                                            // console.log("item girl", keyValues);
                                         }
                                         )}
                                 </ul>

@@ -5,7 +5,6 @@ import React from 'react';
 
 export default function PcBuild({ categoryData }) {
     // console.log("Categories data", categoryData);
-
     return (
         <div className=''>
             <h1 className='text-center text-xl font-semibold my-5'>Components</h1>
@@ -37,7 +36,7 @@ PcBuild.getLayout = function getLayout(page) {
 export const getServerSideProps = async () => {
     const res = await fetch(`http://localhost:5000/categories`);
     const data = await res.json();
-    console.log("Dataaaa", data);
+    // console.log("Dataaaa", data);
 
     return {
         props: {

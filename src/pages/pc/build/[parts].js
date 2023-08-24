@@ -2,10 +2,70 @@ import React from 'react';
 import RootLayout from '@/Layouts/RootLayout';
 import Image from 'next/image';
 import StarRating from '@/components/StarRating';
-
+import { useDispatch, useSelector } from 'react-redux';
+import { selectedCpu, selectedMonitor, selectedMotherboard, selectedOthers, selectedPowerSupply, selectedProduct, selectedRam, selectedStorageDevice, updateSelectedProduct } from '@/redux/pcBuilder/pcBuilderReducer';
+import { useRouter } from 'next/router';
 export default function Parts({ categoryData }) {
-  console.log(categoryData);
+  const router = useRouter();
+  // console.log('I am cat data',categoryData);
+  const selectedProductList = useSelector(state => state.persistedPcBuilderReducer.selectedProduct);
+  console.log("selectedProductList", selectedProductList);
+  const dispatch = useDispatch();
+  const handleAddToBuilder = (product, productName, productCategory) => {
+    const existProduct = selectedProductList.filter(selected => selected.name === productName);
+    const sameCategoryProduct = selectedProductList.filter(selected => selected.category === productCategory);
+    // // console.log("sameCategoryProduct", sameCategoryProduct.push(product));
+    // console.log("Sameee", sameCategoryProduct);
+    // console.log("Before splicing", selectedProductList);
+    if (!existProduct.length) {
+      dispatch(selectedProduct(product));
+    } else {
+      console.log("already added");
+    }
+    if (sameCategoryProduct.length) {
+      // dispatch(selectedProduct(sameCategoryProduct));
+      // console.log("me the same", sameCategoryProduct[0]);    console.log("After splicing", selectedProductList);
 
+      // selectedProductList.filter(productList => productList !== sameCategoryProduct[0]);
+      // console.log("Now you see me", selectedProductList);
+      const foundProduct = selectedProductList.find(product => product === sameCategoryProduct[0]);
+      const foundProductIndex = selectedProductList.findIndex(product => product === sameCategoryProduct[0]);
+      // console.log("foundProduct index", foundProduct, foundProductIndex);
+      // selectedProductList.shift();
+      if (foundProductIndex !== -1) {
+        dispatch(updateSelectedProduct(foundProductIndex));
+      }
+
+      // selectedProductList.splice(foundProductIndex, 1);
+      // dispatch(updateSelectedProduct(foundProductIndex, 1));
+    }
+    // console.log("After splicing", selectedProductList);
+
+
+
+    if (productCategory === "CPU") {
+      dispatch(selectedCpu(product));
+    }
+    if (productCategory === "Motherboard") {
+      dispatch(selectedMotherboard(product));
+    }
+    if (productCategory === "RAM") {
+      dispatch(selectedRam(product));
+    }
+    if (productCategory === "Power-Supply") {
+      dispatch(selectedPowerSupply(product));
+    }
+    if (productCategory === "Storage-Device") {
+      dispatch(selectedStorageDevice(product));
+    }
+    if (productCategory === "Monitor") {
+      dispatch(selectedMonitor(product));
+    }
+    if (productCategory === "Others") {
+      dispatch(selectedOthers(product));
+    }
+    router.push('/pc/build/build-pc');
+  };
   return (
     <>
       <h1 className='text-center text-xl font-semibold my-5'>{categoryData.name}</h1>
@@ -28,7 +88,7 @@ export default function Parts({ categoryData }) {
               </div>
             </div>
             <div className="card-actions justify-start lg:justify-end">
-              <button className="btn btn-outline ">Add to builder</button>
+              <button onClick={() => handleAddToBuilder(product, product.name, product.category)} className="btn btn-outline ">Add to builder</button>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import RootLayout from '@/Layouts/RootLayout';
 import Image from 'next/image';
 import StarRating from '@/components/StarRating';
 export default function ProductDetails({ product }) {
-    console.log("I am single product", product);
+    // console.log("I am single product", product);
     const { name, image, category, price, status, avgRating, description, keyFeatures, reviews } = product;
     return (
         <> <div className='flex justify-center'>
@@ -36,7 +36,7 @@ export default function ProductDetails({ product }) {
                                                     ))}
                                                 </ul>
                                             );
-                                            console.log("item girl", keyValues);
+                                            // console.log("item girl", keyValues);
                                         }
                                         )}
                                 </ul>

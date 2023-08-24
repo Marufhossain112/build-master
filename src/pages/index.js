@@ -5,7 +5,7 @@ import FeaturedProducts from '@/components/FeaturedProducts';
 import React from 'react';
 
 export default function Home({ featuredProducts, categories }) {
-  console.log("from categories", categories);
+  // console.log("from categories", categories);
   return (
     <div className='h-[100vh]'>
 

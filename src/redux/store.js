@@ -3,16 +3,17 @@ import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 import { api } from './api/api';
 import productReducer from './product/productReducer';
+import pcBuilderReducer from './pcBuilder/pcBuilderReducer';
 // Persist configuration for the regular Redux store
 const reduxPersistConfig = {
     key: 'root', // Change this key if needed
     storage,
 };
-const rootReducer = productReducer;
 // Create the persisted reducer for the regular Redux store
-const persistedReducer = persistReducer(reduxPersistConfig, rootReducer);
+const persistedProductReducer = persistReducer(reduxPersistConfig, productReducer);
+const persistedPcBuilderReducer = persistReducer(reduxPersistConfig, pcBuilderReducer);
 const store = configureStore({
-    reducer: { persistedReducer, [api.reducerPath]: api.reducer, },
+    reducer: { persistedProductReducer, persistedPcBuilderReducer, [api.reducerPath]: api.reducer, },
     middleware: (getDefaultMiddleware) =>
         getDefaultMiddleware().concat(api.middleware),
 });

@@ -2,18 +2,36 @@ import RootLayout from '@/Layouts/RootLayout';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { useSelector } from 'react-redux';
 
 export default function PcBuild({ categoryData }) {
-    // console.log("Categories data", categoryData);
+    const selectedData = useSelector(state => state.persistedPcBuilderReducer.selectedProduct);
+    console.log("selected data", selectedData);
     return (
         <div className=''>
             <h1 className='text-center text-xl font-semibold my-5'>Components</h1>
             <div className='flex gap-2 flex-col mx-1'>
                 {categoryData && categoryData.map((category, index) => (
-                    <div key={index} className="parent  border border-gray-400 rounded-sm p-2 w-full  md:w-[50%]  mx-auto flex justify-between">
-                        <div className='flex gap-1'>
+                    <div key={index} className="parent  border border-gray-400 rounded-sm p-2 w-full  md:w-[50%]  mx-auto flex justify-between overflow-auto">
+                        <div className='flex gap-1 max-w-md max-h-16'>
                             <Image src={category.image} width={48} height={48} alt='img' />
                             <h5 >{category.name}</h5>
+                            <div>
+                                {selectedData.map((product, index) => (
+                                    <div key={index}>{product.category === category.name ? <>
+                                        <div className='flex items-center  rounded-md'>
+                                            <div className='mx-1'>
+                                                <Image src={product.image} width={48} height={48} alt='img' />
+                                            </div>
+                                            <p className=''>{product.name}
+                                            </p>
+                                            {/* <p>
+                                            {product.price}
+                                        </p> */}
+                                        </div></> : null}</div>
+                                ))}
+                            </div>
+
                         </div>
                         <Link href={`/pc/build/${category.id}`}>
                             <button className='btn btn-outline'>Select</button>
@@ -22,6 +40,8 @@ export default function PcBuild({ categoryData }) {
                 ))
                 }
             </div>
+            {/* <button className='text-center inline-flex justify-center items-center text-xl font-semibold my-5'>Complete</button> */}
+            <button disabled={selectedData.length < 6} className='btn btn-outline block mx-auto mt-3'>Complete build</button>
         </div>
 
     );

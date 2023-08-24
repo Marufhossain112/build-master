@@ -3,10 +3,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { toast } from 'react-toastify';
 
 export default function PcBuild({ categoryData }) {
     const selectedData = useSelector(state => state.persistedPcBuilderReducer.selectedProduct);
-    console.log("selected data", selectedData);
+    // console.log("selected data", selectedData);
+    const handleCompleteBuild = () => toast('Build is completed successfully', { hideProgressBar: true, autoClose: 2000, type: 'success', closeButton: false });
     return (
         <div className=''>
             <h1 className='text-center text-xl font-semibold my-5'>Components</h1>
@@ -41,7 +43,7 @@ export default function PcBuild({ categoryData }) {
                 }
             </div>
             {/* <button className='text-center inline-flex justify-center items-center text-xl font-semibold my-5'>Complete</button> */}
-            <button disabled={selectedData.length < 6} className='btn btn-outline block mx-auto mt-3'>Complete build</button>
+            <button disabled={selectedData.length < 7} onClick={handleCompleteBuild} className='btn btn-outline block mx-auto mt-3'>Complete build</button>
         </div>
 
     );

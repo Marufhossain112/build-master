@@ -25,6 +25,7 @@ export default function Navbar() {
                                     <li><Link href="/pc/parts/power-supply">Power Supply</Link></li>
                                     <li><Link href="/pc/parts/storage-device">Storage
                                         Device</Link></li>
+                                    <li><Link href="/pc/parts/monitor">Monitor</Link></li>
                                     <li><Link href="/pc/parts/others">Others</Link></li>
                                 </ul>
                             </details>
@@ -51,6 +52,7 @@ export default function Navbar() {
                                 <li><Link href="/pc/parts/power-supply">Power Supply</Link></li>
                                 <li><Link href="/pc/parts/storage-device">Storage
                                     Device</Link></li>
+                                <li><Link href="/pc/parts/monitor">Monitor</Link></li>
                                 <li><Link href="/pc/parts/others">Others</Link></li>
                             </ul>
                         </details>

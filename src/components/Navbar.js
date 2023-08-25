@@ -9,7 +9,7 @@ import { signOut } from 'firebase/auth';
 import auth from '@/firebase/firebase.auth';
 export default function Navbar() {
     const { user } = useSelector((state) => state.persistedUserReducer);
-    console.log("uuuuuser", user);
+    // console.log("uuuuuser", user);
 
     const dispatch = useDispatch();
     const handleSignOutToast = () => toast('Sign out is successful', { hideProgressBar: true, autoClose: 2000, type: 'success', closeButton: false });
@@ -18,7 +18,7 @@ export default function Navbar() {
             handleSignOutToast();
             dispatch(signOutUser());
         }).catch((error) => {
-            console.log(error);
+            // console.log(error);
         });
     };
     return (

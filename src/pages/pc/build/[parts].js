@@ -9,7 +9,7 @@ export default function Parts({ categoryData }) {
   const router = useRouter();
   // console.log('I am cat data',categoryData);
   const selectedProductList = useSelector(state => state.persistedPcBuilderReducer.selectedProduct);
-  console.log("selectedProductList", selectedProductList);
+  // console.log("selectedProductList", selectedProductList);
   const dispatch = useDispatch();
   const handleAddToBuilder = (product, productName, productCategory) => {
     const existProduct = selectedProductList.filter(selected => selected.name === productName);
@@ -20,14 +20,10 @@ export default function Parts({ categoryData }) {
     if (!existProduct.length) {
       dispatch(selectedProduct(product));
     } else {
-      console.log("already added");
+      // console.log("already added");
     }
     if (sameCategoryProduct.length) {
-      // dispatch(selectedProduct(sameCategoryProduct));
-      // console.log("me the same", sameCategoryProduct[0]);    console.log("After splicing", selectedProductList);
 
-      // selectedProductList.filter(productList => productList !== sameCategoryProduct[0]);
-      // console.log("Now you see me", selectedProductList);
       const foundProduct = selectedProductList.find(product => product === sameCategoryProduct[0]);
       const foundProductIndex = selectedProductList.findIndex(product => product === sameCategoryProduct[0]);
       // console.log("foundProduct index", foundProduct, foundProductIndex);

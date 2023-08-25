@@ -37,7 +37,7 @@ export default function signup() {
             .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
-                console.log("errorCode", errorCode, "errorMessage", errorMessage);
+                // console.log("errorCode", errorCode, "errorMessage", errorMessage);
                 if (errorCode === "auth/weak-password") {
                     setIsError("Password should be at least 6 characters");
                 } else if (errorCode === "auth/invalid-email") {
@@ -54,7 +54,7 @@ export default function signup() {
             displayName: data.name
         }).then(() => {
         }).catch((error) => {
-            console.log(error);
+            // console.log(error);
         });
     };
 

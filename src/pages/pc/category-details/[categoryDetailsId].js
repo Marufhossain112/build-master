@@ -2,15 +2,15 @@ import React from 'react';
 import RootLayout from '@/Layouts/RootLayout';
 import Image from 'next/image';
 import StarRating from '@/components/StarRating';
-import { useRouter } from 'next/router';
 import { useSelector } from 'react-redux';
 export default function CategoryDetails({ categoryData }) {
     const categoryProduct = useSelector(state => state.persistedProductReducer.categoryProduct);
     const categoryId = useSelector(state => state.persistedProductReducer.categoryId);
-    const finalProduct = categoryProduct?.find(product => product.id === categoryId);
+    const finalProduct = categoryProduct.find(product => product.id === categoryId);
     // console.log("finalProduct", finalProduct);
-    const router = useRouter();
     const { name, image, category, price, status, avgRating, description, keyFeatures, reviews } = finalProduct;
+    console.log("me final product", finalProduct);
+
     return (
         <> <div className='flex justify-center'>
             {/* info */}
@@ -73,7 +73,6 @@ export default function CategoryDetails({ categoryData }) {
                 <hr />
                 <div>
                     {reviews.map((review, index) => {
-                        // const { name, review } = review;
                         return (
                             <div key={index}>
                                 <div className="card w-96 bg-base-100 shadow-xl">

@@ -87,7 +87,7 @@ export default function signin() {
                             Login
                         </button>
                         <div class="sm:flex sm:flex-wrap mt-8 sm:mb-4 text-sm text-center">
-                            Don't have any account ?
+                            Do not have any account ?
                             <Link href="/auth/signup" class="flex-2 underline ml-1">
                                 Register
                             </Link>

@@ -43,7 +43,7 @@ export default function PcBuild({ categoryData }) {
                 }
             </div>
             {/* <button className='text-center inline-flex justify-center items-center text-xl font-semibold my-5'>Complete</button> */}
-            <button disabled={selectedData.length < 7} onClick={handleCompleteBuild} className='btn btn-outline block mx-auto mt-3'>Complete build</button>
+            <button disabled={selectedData.length < 7} onClick={handleCompleteBuild} className='btn btn-outline block mx-auto my-3'>Complete build</button>
         </div>
 
     );

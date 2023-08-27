@@ -28,13 +28,13 @@ export default function CategoryDetails({ categoryBasedData }) {
             return selectedProduct;
             // setIsSelectedProduct.push(selectedProduct);
         } catch (error) {
-            console.error("Error fetching data:", error);
+            // console.error("Error fetching data:", error);
         }
     };
 
     findData().then((product) => setSelectedProduct(product));
 
-    console.log("see u soon", selectedProduct);
+    // console.log("see u soon", selectedProduct);
 
     // const categoryProduct = useSelector(state => state.persistedProductReducer.categoryProduct);
     // const categoryId = useSelector(state => state.persistedProductReducer.categoryId);

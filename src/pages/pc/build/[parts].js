@@ -5,9 +5,10 @@ import StarRating from '@/components/StarRating';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectedCpu, selectedMonitor, selectedMotherboard, selectedOthers, selectedPowerSupply, selectedProduct, selectedRam, selectedStorageDevice, updateSelectedProduct } from '@/redux/pcBuilder/pcBuilderReducer';
 import { useRouter } from 'next/router';
+import { toast } from 'react-toastify';
 export default function Parts({ categoryData }) {
   const router = useRouter();
-  // console.log('I am cat data',categoryData);
+  console.log('I am cat data', categoryData);
   const selectedProductList = useSelector(state => state.persistedPcBuilderReducer.selectedProduct);
   // console.log("selectedProductList", selectedProductList);
   const dispatch = useDispatch();
@@ -17,7 +18,13 @@ export default function Parts({ categoryData }) {
     // // console.log("sameCategoryProduct", sameCategoryProduct.push(product));
     // console.log("Sameee", sameCategoryProduct);
     // console.log("Before splicing", selectedProductList);
-    if (!existProduct.length) {
+    const handleExistToast = () => toast('Product is already selected', { hideProgressBar: true, autoClose: 2000, type: 'error', closeButton: false });
+    if (existProduct.length) {
+      // dispatch(selectedProduct(product));
+      handleExistToast();
+      return;
+    }
+    else if (!existProduct.length) {
       dispatch(selectedProduct(product));
     } else {
       // console.log("already added");
@@ -63,6 +70,7 @@ export default function Parts({ categoryData }) {
     router.push('/pc/build/build-pc');
   };
   return (
+    // <></>
     <>
       <h1 className='text-center text-xl font-semibold my-5'>{categoryData.name}</h1>
       {categoryData.products.map((product, index) => (
@@ -103,13 +111,13 @@ export const getServerSideProps = async (context) => {
   // console.log("context", context);
   const { params } = context;
 
-  const res = await fetch(`http://localhost:3000/categories/${params.parts}`);
+  const res = await fetch(`http://localhost:3000/api/categories/${params.parts}`);
   const data = await res.json();
   // console.log("Dataaaa", data);
 
   return {
     props: {
-      categoryData: data,
+      categoryData: data.data,
     }
   };
 };

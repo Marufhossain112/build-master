@@ -25,14 +25,14 @@ Home.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/featuredProducts");
+  const res = await fetch("http://localhost:3000/api/featuredProducts");
   const data = await res.json();
-  const categories = await fetch("http://localhost:5000/categories");
+  const categories = await fetch("http://localhost:3000/api/categories");
   const categoriesData = await categories.json();
   return {
     props: {
-      featuredProducts: data,
-      categories: categoriesData
+      featuredProducts: data.data,
+      categories: categoriesData.data
     }
   };
 };

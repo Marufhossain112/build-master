@@ -103,7 +103,7 @@ export const getServerSideProps = async (context) => {
   // console.log("context", context);
   const { params } = context;
 
-  const res = await fetch(`http://localhost:5000/categories/${params.parts}`);
+  const res = await fetch(`http://localhost:3000/categories/${params.parts}`);
   const data = await res.json();
   // console.log("Dataaaa", data);
 

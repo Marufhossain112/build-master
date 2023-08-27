@@ -7,7 +7,7 @@ export default function Ram({ categoryData }) {
     <>  <h4 className='text-center py-4  font-bold text-2xl'>Ram</h4>
       <div className='flex justify-center flex-wrap gap-4'>
         {
-          categoryData && categoryData.map(category => (
+          categoryData && categoryData.products.map(category => (
             <div key={category.id} className="card w-96 bg-base-100 shadow-xl">
               <figure><Image width={200} height={100} src={category.image} alt={category.name} /></figure>
               <div className="card-body">
@@ -41,11 +41,11 @@ Ram.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch(`http://localhost:5000/ram`);
+  const res = await fetch(`http://localhost:3000/api/categories/3`);
   const data = await res.json();
   return {
     props: {
-      categoryData: data,
+      categoryData: data.data,
     }
   };
 };

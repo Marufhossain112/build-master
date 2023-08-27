@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 import { toast } from 'react-toastify';
 export default function Parts({ categoryData }) {
   const router = useRouter();
-  console.log('I am cat data', categoryData);
+  // console.log('I am cat data', categoryData);
   const selectedProductList = useSelector(state => state.persistedPcBuilderReducer.selectedProduct);
   // console.log("selectedProductList", selectedProductList);
   const dispatch = useDispatch();

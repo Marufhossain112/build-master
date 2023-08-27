@@ -1,5 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-
+import { FcGoogle } from 'react-icons/fc';
+import { FaGithub } from 'react-icons/fa';
+import { signIn } from "next-auth/react";
 import React, { useState } from 'react';
 import RootLayout from '@/Layouts/RootLayout';
 import { useForm } from "react-hook-form";
@@ -113,6 +115,20 @@ export default function signup() {
                             <Link href="/auth/signin" class="flex-2 underline ml-1">
                                 Login
                             </Link>
+                        </div>
+                        <div class="sm:flex sm:flex-wrap mt-8 sm:mb-4 text-sm text-center">
+                            <div className="flex items-center gap-3">
+                                <span>
+                                    Sign in with
+                                </span>
+                                <button className="text-2xl">
+                                    <FcGoogle onClick={() => signIn("google")}></FcGoogle>
+                                </button>
+                                <span>Or</span>
+                                <button className="text-2xl">
+                                    <FaGithub onClick={() => signIn("github")}></FaGithub>
+                                </button>
+                            </div>
                         </div>
                     </form>
                 </div>

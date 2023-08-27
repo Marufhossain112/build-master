@@ -6,10 +6,14 @@ import { toast } from 'react-toastify';
 import { useDispatch, useSelector } from 'react-redux';
 import { signOutUser } from '@/redux/user/userSlice';
 import { signOut } from 'firebase/auth';
+import { signOut as nextAuthSignOut } from 'next-auth/react';
 import auth from '@/firebase/firebase.auth';
+import { useSession } from 'next-auth/react';
 export default function Navbar() {
     const { user } = useSelector((state) => state.persistedUserReducer);
     // console.log("uuuuuser", user);
+    const { data: loginUser } = useSession();
+    // console.log("data", loginUser);
 
     const dispatch = useDispatch();
     const handleSignOutToast = () => toast('Sign out is successful', { hideProgressBar: true, autoClose: 2000, type: 'success', closeButton: false });
@@ -17,6 +21,7 @@ export default function Navbar() {
         signOut(auth).then(() => {
             handleSignOutToast();
             dispatch(signOutUser());
+            nextAuthSignOut();
         }).catch((error) => {
             // console.log(error);
         });
@@ -31,7 +36,7 @@ export default function Navbar() {
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <Link href="/"><li><a>Home</a></li></Link>
                         {
-                            user !== null ? <li onClick={handleSignOut}><a>Sign out</a></li> :
+                            (user !== null) ? <li onClick={handleSignOut}><a>Sign out</a></li> :
                                 <Link href="/auth/signin">
                                     <li>
                                         <a >Sign in</a></li>
@@ -67,7 +72,7 @@ export default function Navbar() {
                 <ul className="menu menu-horizontal px-1">
                     <Link href="/"><li><a>Home</a></li></Link>
                     {
-                        user !== null ? <li onClick={handleSignOut}><a>Sign out</a></li> :
+                        loginUser?.user?.email || user !== null ? <li onClick={handleSignOut}><a>Sign out</a></li> :
                             <Link href="/auth/signin">
                                 <li>
                                     <a >Sign in</a></li>

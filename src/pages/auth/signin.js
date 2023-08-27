@@ -9,6 +9,10 @@ import { useDispatch } from "react-redux";
 import { setUser } from "@/redux/user/userSlice";
 import { toast } from "react-toastify";
 import { useRouter } from "next/router";
+import { FcGoogle } from 'react-icons/fc';
+import { FaGithub } from 'react-icons/fa';
+import { signIn } from "next-auth/react";
+
 export default function signin() {
     const [isError, setIsError] = useState("");
     const dispatch = useDispatch();
@@ -93,6 +97,20 @@ export default function signin() {
                             <Link href="/auth/signup" class="flex-2 underline ml-1">
                                 Register
                             </Link>
+                        </div>
+                        <div class="sm:flex sm:flex-wrap mt-8 sm:mb-4 text-sm text-center">
+                            <div className="flex items-center gap-3">
+                                <span>
+                                    Sign in with
+                                </span>
+                                <button className="text-2xl">
+                                    <FcGoogle onClick={() => signIn("google")}></FcGoogle>
+                                </button>
+                                <span>Or</span>
+                                <button className="text-2xl">
+                                    <FaGithub onClick={() => signIn("github")}></FaGithub>
+                                </button>
+                            </div>
                         </div>
                     </form>
                 </div>

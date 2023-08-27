@@ -41,7 +41,7 @@ Others.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps = async () => {
-    const res = await fetch(`http://localhost:3000/api/categories/7`);
+    const res = await fetch(`https://build-master-pro.vercel.app/api/categories/7`);
     const data = await res.json();
     return {
         props: {

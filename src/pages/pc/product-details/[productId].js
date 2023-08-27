@@ -89,8 +89,9 @@ export default function ProductDetails({ product }) {
 ProductDetails.getLayout = function getLayout(page) {
     return <RootLayout>{page}</RootLayout>;
 };
+
 export const getStaticPaths = async () => {
-    const res = await fetch('http://localhost:3000/api/featuredProducts');
+    const res = await fetch('https://build-master-pro.vercel.app/api/featuredProducts');
     const products = await res.json();
     const paths = products.data.map((product) => ({
         params: { productId: (product.id).toString() },
@@ -101,7 +102,7 @@ export const getStaticPaths = async () => {
 };
 export const getStaticProps = async (context) => {
     const { params } = context;
-    const res = await fetch(`http://localhost:3000/api/featuredProducts/${params.productId}`);
+    const res = await fetch(`https://build-master-pro.vercel.app/api/featuredProducts/${params.productId}`);
     const data = await res.json();
     return {
         props: {

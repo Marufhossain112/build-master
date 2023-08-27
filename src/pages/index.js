@@ -25,9 +25,9 @@ Home.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/featuredProducts");
+  const res = await fetch("https://build-master-pro.vercel.app/api/featuredProducts");
   const data = await res.json();
-  const categories = await fetch("http://localhost:3000/api/categories");
+  const categories = await fetch("https://build-master-pro.vercel.app/api/categories");
   const categoriesData = await categories.json();
   return {
     props: {

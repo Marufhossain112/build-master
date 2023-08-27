@@ -111,7 +111,7 @@ export const getServerSideProps = async (context) => {
   // console.log("context", context);
   const { params } = context;
 
-  const res = await fetch(`http://localhost:3000/api/categories/${params.parts}`);
+  const res = await fetch(`https://build-master-pro.vercel.app/api/categories/${params.parts}`);
   const data = await res.json();
   // console.log("Dataaaa", data);
 

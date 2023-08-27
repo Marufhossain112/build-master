@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import RootLayout from '@/Layouts/RootLayout';
 import Image from 'next/image';
 import StarRating from '@/components/StarRating';
@@ -14,25 +14,25 @@ export default function CategoryDetails({ categoryBasedData }) {
 
     const { categoryId } = useSelector(state => (state.persistedProductReducer));
     // console.log("see me", categoryId);
-
-    const findData = async () => {
-        try {
-            const response = await fetch(`http://localhost:3000/api/categories/${categoryId}`);
-            if (!response.ok) {
-                throw new Error("Network response was not ok");
+    useEffect(() => {
+        const findData = async () => {
+            try {
+                const response = await fetch(`https://build-master-pro.vercel.app/api/categories/${categoryId}`);
+                if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                }
+                const getData = await response.json();
+                const products = getData.data.products;
+                const selectedProduct = products.find(product => product.id === params);
+                setSelectedProduct(selectedProduct);
+            } catch (error) {
+                console.error("Error fetching data:", error);
             }
-            const getData = await response.json();
-            const products = getData.data.products;
-            const selectedProduct = products.find(product => product.id === params);
-            // console.log("selectedProduct", selectedProduct);
-            return selectedProduct;
-            // setIsSelectedProduct.push(selectedProduct);
-        } catch (error) {
-            // console.error("Error fetching data:", error);
-        }
-    };
+        };
 
-    findData().then((product) => setSelectedProduct(product));
+        findData();
+    }, []);
+
 
     // console.log("see u soon", selectedProduct);
 
@@ -131,8 +131,9 @@ export default function CategoryDetails({ categoryBasedData }) {
 CategoryDetails.getLayout = function getLayout(page) {
     return <RootLayout>{page}</RootLayout>;
 };
+
 export const getStaticPaths = async () => {
-    const res = await fetch(`http://localhost:3000/api/categories`);
+    const res = await fetch(`https://build-master-pro.vercel.app/api/categories`);
     const products = await res.json();
     // console.log("catcatcat", products);
     const paths = products.data.map((product) => ({
@@ -145,8 +146,8 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
     // const { categoryId } = useSelector(state => (state.persistedProductReducer));
     const { params } = context;
-    const res = await fetch(`http://localhost:3000/api/categories/${params.categoryDetailsId}`);
-    const res2 = await fetch(`http://localhost:3000/api/categories/${params.categoryDetailsId}`);
+    const res = await fetch(`https://build-master-pro.vercel.app/api/categories/${params.categoryDetailsId}`);
+    const res2 = await fetch(`https://build-master-pro.vercel.app/api/categories/${params.categoryDetailsId}`);
     const data = await res.json();
     const data2 = await res2.json();
     return {

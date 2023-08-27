@@ -59,7 +59,7 @@ Categories.getLayout = function getLayout(page) {
     return <RootLayout >{page}</RootLayout>;
 };
 export const getStaticPaths = async () => {
-    const res = await fetch(`http://localhost:3000/api/categories`);
+    const res = await fetch(`https://build-master-pro.vercel.app/api/categories`);
     const products = await res.json();
     // console.log("PRRRROducts", products);
 
@@ -74,7 +74,7 @@ export const getStaticProps = async (context) => {
     const { params } = context;
     // console.log("Paaaaaaarams", params);
 
-    const res = await fetch(`http://localhost:3000/api/categories/${params.categoriesId}`);
+    const res = await fetch(`https://build-master-pro.vercel.app/api/categories/${params.categoriesId}`);
     const data = await res.json();
     return {
         props: {

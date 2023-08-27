@@ -18,6 +18,7 @@ export default function signup() {
         handleSubmit,
         watch,
         formState: { errors },
+        reset
         // eslint-disable-next-line react-hooks/rules-of-hooks
     } = useForm();
     // toast 
@@ -32,6 +33,7 @@ export default function signup() {
                 if (user) {
                     dispatch(setUser(user.email));
                     handleSuccess();
+                    reset();
                 }
             })
             .catch((error) => {

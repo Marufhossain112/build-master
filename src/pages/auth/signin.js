@@ -18,6 +18,7 @@ export default function signin() {
         register,
         handleSubmit,
         formState: { errors },
+        reset
     } = useForm();
     const handleSignIn = () => toast('Sign in is successful', { hideProgressBar: true, autoClose: 2000, type: 'success', closeButton: false });
     const handleFailed = () => toast('Failed to sign in', { hideProgressBar: true, autoClose: 2000, type: 'error', closeButton: false });
@@ -28,6 +29,7 @@ export default function signin() {
                 if (user) {
                     dispatch(setUser(user.email));
                     handleSignIn();
+                    reset();
                     router.push("/");
                 }
             }).catch(error => {

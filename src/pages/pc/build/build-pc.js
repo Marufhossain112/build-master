@@ -15,26 +15,28 @@ export default function PcBuild({ categoryData }) {
             <div className='flex gap-2 flex-col mx-1'>
                 {categoryData && categoryData.map((category, index) => (
                     <div key={index} className="parent  border border-gray-400 rounded-sm p-2 w-full  md:w-[50%]  mx-auto flex justify-between overflow-auto">
+                        {/* category logo and name */}
                         <div className='flex gap-1 max-w-md max-h-16'>
                             <Image src={category.image} width={48} height={48} alt='img' />
-                            <h5 >{category.name}</h5>
-                            <div>
-                                {selectedData.map((product, index) => (
-                                    <div key={index}>{product.category === category.name ? <>
-                                        <div className='flex items-center  rounded-md'>
-                                            <div className='mx-1'>
-                                                <Image src={product.image} width={48} height={48} alt='img' />
-                                            </div>
-                                            <p className=''>{product.name}
-                                            </p>
-                                            {/* <p>
+                            <h5>{category.name}</h5>
+                        </div>
+                        <div>
+                            {selectedData.map((product, index) => (
+                                <div key={index}>{product.category === category.name ? <>
+                                    <div className='flex items-center  rounded-md'>
+                                        <div className='mx-1'>
+                                            <Image src={product.image} width={48} height={48} alt='img' />
+                                        </div>
+                                        <p className=''>{product.name.slice(0, 20)}
+                                        </p>
+                                        {/* <p>
                                             {product.price}
                                         </p> */}
-                                        </div></> : null}</div>
-                                ))}
-                            </div>
-
+                                    </div></> : null}</div>
+                            ))}
                         </div>
+
+                        {/* </div> */}
                         <Link href={`/pc/build/${category.id}`}>
                             <button className='btn btn-outline'>Select</button>
                         </Link>
@@ -42,7 +44,6 @@ export default function PcBuild({ categoryData }) {
                 ))
                 }
             </div>
-            {/* <button className='text-center inline-flex justify-center items-center text-xl font-semibold my-5'>Complete</button> */}
             <button disabled={selectedData.length < 7} onClick={handleCompleteBuild} className='btn btn-outline block mx-auto my-3'>Complete build</button>
         </div>
 

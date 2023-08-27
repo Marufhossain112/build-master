@@ -75,7 +75,7 @@ export default function Parts({ categoryData }) {
       <h1 className='text-center text-xl font-semibold my-5'>{categoryData.name}</h1>
       {categoryData.products.map((product, index) => (
         <div key={index} className="card card-side bg-base-100 shadow-xl my-5 md:mx-auto md:w-1/2 p-2 mx-5">
-          <figure><Image src={product.image} height={120} width={120} alt="Movie" responsive /></figure>
+          <figure><Image src={product.image} height={120} width={120} alt="img" responsive /></figure>
           <div className="card-body">
             <div className='flex justify-between'>
               <div className='flex flex-col'>

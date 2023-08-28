@@ -14,10 +14,14 @@ import { FaGithub } from 'react-icons/fa';
 import { signIn } from "next-auth/react";
 
 export default function signin() {
+
     const [isError, setIsError] = useState("");
     const dispatch = useDispatch();
     const router = useRouter();
     const auth = getAuth(app);
+    const { callbackUrl } = router.query;
+    // console.log("route_query", router.query);
+
     const {
         register,
         handleSubmit,
@@ -104,11 +108,11 @@ export default function signin() {
                                     Sign in with
                                 </span>
                                 <button className="text-2xl">
-                                    <FcGoogle onClick={() => signIn("google")}></FcGoogle>
+                                    <FcGoogle onClick={() => signIn("google", { callbackUrl })}></FcGoogle>
                                 </button>
                                 <span>Or</span>
                                 <button className="text-2xl">
-                                    <FaGithub onClick={() => signIn("github")}></FaGithub>
+                                    <FaGithub onClick={() => signIn("github", { callbackUrl })}></FaGithub>
                                 </button>
                             </div>
                         </div>

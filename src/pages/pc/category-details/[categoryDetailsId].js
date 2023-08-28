@@ -26,7 +26,7 @@ export default function CategoryDetails({ categoryBasedData }) {
                 const selectedProduct = products.find(product => product.id === params);
                 setSelectedProduct(selectedProduct);
             } catch (error) {
-                console.error("Error fetching data:", error);
+                // console.error("Error fetching data:", error);
             }
         };
 

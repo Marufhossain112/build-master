@@ -8,6 +8,7 @@ import { toast } from 'react-toastify';
 export default function PcBuild({ categoryData }) {
     const selectedData = useSelector(state => state.persistedPcBuilderReducer.selectedProduct);
     // console.log("selected data", selectedData);
+    // console.log("categoryData", categoryData);
     const handleCompleteBuild = () => toast('Build is completed successfully', { hideProgressBar: true, autoClose: 2000, type: 'success', closeButton: false });
     return (
         <div className=''>
@@ -41,6 +42,7 @@ export default function PcBuild({ categoryData }) {
                             <button className='btn btn-outline'>Select</button>
                         </Link>
                     </div >
+                    // console.log(category.image)
                 ))
                 }
             </div>

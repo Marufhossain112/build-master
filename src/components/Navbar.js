@@ -66,7 +66,7 @@ export default function Navbar() {
                 </div>
                 {/* <Link href="/" >  </Link>  */}
                 <Image className='ml-4' src={logo} alt='logo' height={30} width={30} />
-                <Link href="/" className="btn btn-ghost normal-case text-xl">Build Master</Link>
+                <Link href="/" className="site-name btn btn-ghost normal-case text-xl">Build Master</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

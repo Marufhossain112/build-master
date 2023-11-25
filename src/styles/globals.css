@@ -22,3 +22,11 @@ body {
   font-family: "Poppins", sans-serif;
   /* font-family: "Montserrat", sans-serif; */
 }
+.site-name {
+  /* display: none; */
+}
+@media screen and (max-width: 600px) {
+  .site-name {
+    display: none;
+  }
+}

@@ -116,20 +116,6 @@ export default function signup() {
                                 Login
                             </Link>
                         </div>
-                        <div class="sm:flex sm:flex-wrap mt-8 sm:mb-4 text-sm text-center">
-                            <div className="flex items-center gap-3">
-                                <span>
-                                    Sign in with
-                                </span>
-                                <button className="text-2xl">
-                                    <FcGoogle onClick={() => signIn("google")}></FcGoogle>
-                                </button>
-                                <span>Or</span>
-                                <button className="text-2xl">
-                                    <FaGithub onClick={() => signIn("github")}></FaGithub>
-                                </button>
-                            </div>
-                        </div>
                     </form>
                 </div>
             </div>
